@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GrupoBlancoChallenge.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+feba3c5dc1863b27ea9493120e34715058effe48")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+740ae85fef94029ef840f419f50854310c45e8bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("GrupoBlancoChallenge.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GrupoBlancoChallenge.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
