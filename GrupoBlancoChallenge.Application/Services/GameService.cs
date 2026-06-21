@@ -70,6 +70,14 @@ namespace GrupoBlancoChallenge.Application.Services
 
             gameSession.ApplyDecision(option, isLastScenario);
 
+            var gameDecision = new GameDecision(
+                gameSession.Id,
+                currentScenario.Id,
+                option.Id
+            );
+
+            _context.GameDecisions.Add(gameDecision);
+
             if (gameSession.IsFinished)
             {
                 var rankingEntry = new RankingEntry(

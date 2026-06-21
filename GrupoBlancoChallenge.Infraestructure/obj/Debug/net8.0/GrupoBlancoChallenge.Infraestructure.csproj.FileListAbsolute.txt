@@ -18,3 +18,4 @@ C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Infraestru
 C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Infraestructure\obj\Debug\net8.0\GrupoBlancoChallenge.Infraestructure.pdb
 C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Infraestructure\obj\Debug\net8.0\GrupoBlancoChallenge.Infraestructure.genruntimeconfig.cache
 C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Infraestructure\obj\Debug\net8.0\ref\GrupoBlancoChallenge.Infraestructure.dll
+C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Infraestructure\bin\Debug\net8.0\Persistence\Seed\scenarios.json

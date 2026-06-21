@@ -142,3 +142,4 @@ C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Api\obj\De
 C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Api\obj\Debug\net8.0\GrupoBlancoChallenge.Api.pdb
 C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Api\obj\Debug\net8.0\GrupoBlancoChallenge.Api.genruntimeconfig.cache
 C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Api\obj\Debug\net8.0\ref\GrupoBlancoChallenge.Api.dll
+C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Api\bin\Debug\net8.0\Persistence\Seed\scenarios.json

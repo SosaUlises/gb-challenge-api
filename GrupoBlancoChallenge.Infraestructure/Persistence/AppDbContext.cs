@@ -11,6 +11,7 @@ namespace GrupoBlancoChallenge.Infraestructure.Persistence
         {
         }
 
+        public DbSet<GameDecision> GameDecisions => Set<GameDecision>();
         public DbSet<GameSession> GameSessions => Set<GameSession>();
         public DbSet<Scenario> Scenarios => Set<Scenario>();
         public DbSet<DecisionOption> DecisionOptions => Set<DecisionOption>();

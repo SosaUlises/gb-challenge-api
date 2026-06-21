@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GrupoBlancoChallenge.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9dd4c73a3d614c703afa82c2b974a94c474dba56")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5297db622a852566e35307ba576ece3d81baf1f")]
 [assembly: System.Reflection.AssemblyProductAttribute("GrupoBlancoChallenge.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GrupoBlancoChallenge.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

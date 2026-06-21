@@ -20,7 +20,7 @@ namespace GrupoBlancoChallenge.Infraestructure.Persistence.Seed
             var filePath = Path.Combine(
                 environment.ContentRootPath,
                 "..",
-                "GrupoBlancoChallenge.Infrastructure",
+                "GrupoBlancoChallenge.Infraestructure",
                 "Persistence",
                 "Seed",
                 "scenarios.json"

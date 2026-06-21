@@ -63,6 +63,35 @@ namespace GrupoBlancoChallenge.Infraestructure.Migrations
                     b.ToTable("decision_options", (string)null);
                 });
 
+            modelBuilder.Entity("GrupoBlancoChallenge.Domain.Entities.GameDecision", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid>("DecisionOptionId")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("GameSessionId")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("ScenarioId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DecisionOptionId");
+
+                    b.HasIndex("GameSessionId");
+
+                    b.HasIndex("ScenarioId");
+
+                    b.ToTable("game_decisions", (string)null);
+                });
+
             modelBuilder.Entity("GrupoBlancoChallenge.Domain.Entities.GameSession", b =>
                 {
                     b.Property<Guid>("Id")
@@ -161,6 +190,33 @@ namespace GrupoBlancoChallenge.Infraestructure.Migrations
                         .HasForeignKey("ScenarioId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Scenario");
+                });
+
+            modelBuilder.Entity("GrupoBlancoChallenge.Domain.Entities.GameDecision", b =>
+                {
+                    b.HasOne("GrupoBlancoChallenge.Domain.Entities.DecisionOption", "DecisionOption")
+                        .WithMany()
+                        .HasForeignKey("DecisionOptionId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("GrupoBlancoChallenge.Domain.Entities.GameSession", "GameSession")
+                        .WithMany()
+                        .HasForeignKey("GameSessionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("GrupoBlancoChallenge.Domain.Entities.Scenario", "Scenario")
+                        .WithMany()
+                        .HasForeignKey("ScenarioId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("DecisionOption");
+
+                    b.Navigation("GameSession");
 
                     b.Navigation("Scenario");
                 });
