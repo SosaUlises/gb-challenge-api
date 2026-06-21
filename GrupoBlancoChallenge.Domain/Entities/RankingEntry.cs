@@ -9,13 +9,15 @@
         public int FinalScore { get; private set; }
 
         public DateTime PlayedAt { get; private set; } = DateTime.UtcNow;
+        public string FinalRating { get; private set; } = string.Empty;
 
         private RankingEntry() { }
 
-        public RankingEntry(string playerName, int finalScore)
+        public RankingEntry(string playerName, int finalScore, string finalRating)
         {
             PlayerName = playerName;
             FinalScore = finalScore;
+            FinalRating = finalRating;
         }
     }
 }

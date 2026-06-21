@@ -17,6 +17,7 @@
         public bool IsFinished { get; private set; }
 
         public int FinalScore { get; private set; }
+        public string FinalRating { get; private set; } = string.Empty;
 
         private GameSession() { }
 
@@ -52,11 +53,27 @@
         {
             IsFinished = true;
 
-            FinalScore = (Rentability
-                + Clients
-                + OrganizationalClimate
-                + BrandImage
-                + OperationalEfficiency) / 5;
+            FinalScore = (int)Math.Round(
+                Rentability * 0.30 +
+                Clients * 0.20 +
+                BrandImage * 0.20 +
+                OrganizationalClimate * 0.15 +
+                OperationalEfficiency * 0.15
+            );
+
+            FinalRating = CalculateFinalRating(FinalScore);
+        }
+
+        private static string CalculateFinalRating(int finalScore)
+        {
+            return finalScore switch
+            {
+                >= 90 => "Visionario Empresarial",
+                >= 80 => "Director Estratégico",
+                >= 70 => "Gestor Competitivo",
+                >= 60 => "Administrador Conservador",
+                _ => "Gestión en Crisis"
+            };
         }
 
         private static int Clamp(int value)

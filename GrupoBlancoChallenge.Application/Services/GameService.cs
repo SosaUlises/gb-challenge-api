@@ -81,9 +81,10 @@ namespace GrupoBlancoChallenge.Application.Services
             if (gameSession.IsFinished)
             {
                 var rankingEntry = new RankingEntry(
-                    gameSession.PlayerName,
-                    gameSession.FinalScore
-                );
+                     gameSession.PlayerName,
+                     gameSession.FinalScore,
+                     gameSession.FinalRating
+                 );
 
                 _context.RankingEntries.Add(rankingEntry);
             }
@@ -107,6 +108,7 @@ namespace GrupoBlancoChallenge.Application.Services
                 {
                     PlayerName = x.PlayerName,
                     FinalScore = x.FinalScore,
+                    FinalRating = x.FinalRating,
                     PlayedAt = x.PlayedAt
                 })
                 .ToListAsync();
@@ -152,6 +154,7 @@ namespace GrupoBlancoChallenge.Application.Services
                 CurrentScenarioOrder = gameSession.CurrentScenarioOrder,
                 IsFinished = gameSession.IsFinished,
                 FinalScore = gameSession.FinalScore,
+                FinalRating = gameSession.FinalRating,
                 CurrentScenario = currentScenario
             };
         }

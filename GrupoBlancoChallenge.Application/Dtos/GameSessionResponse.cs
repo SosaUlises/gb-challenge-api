@@ -14,6 +14,7 @@
         public int CurrentScenarioOrder { get; set; }
         public bool IsFinished { get; set; }
         public int FinalScore { get; set; }
+        public string FinalRating { get; set; } = string.Empty;
 
         public ScenarioResponse? CurrentScenario { get; set; }
     }
