@@ -1,5 +1,7 @@
 using GrupoBlancoChallenge.Application;
 using GrupoBlancoChallenge.Infraestructure;
+using GrupoBlancoChallenge.Infraestructure.Persistence;
+using GrupoBlancoChallenge.Infraestructure.Persistence.Seed;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -34,5 +36,13 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    var environment = scope.ServiceProvider.GetRequiredService<IHostEnvironment>();
+
+    await DataSeeder.SeedAsync(context, environment);
+}
 
 app.Run();

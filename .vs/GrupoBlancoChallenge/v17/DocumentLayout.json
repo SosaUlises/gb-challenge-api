@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A89B3B5-A531-455F-A75A-BB2019FCC2DF}|GrupoBlancoChallenge.Api\\GrupoBlancoChallenge.Api.csproj|c:\\users\\ulipv\\source\\repos\\grupoblancochallenge\\grupoblancochallenge.api\\controllers\\rankingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A89B3B5-A531-455F-A75A-BB2019FCC2DF}|GrupoBlancoChallenge.Api\\GrupoBlancoChallenge.Api.csproj|solutionrelative:grupoblancochallenge.api\\controllers\\rankingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A89B3B5-A531-455F-A75A-BB2019FCC2DF}|GrupoBlancoChallenge.Api\\GrupoBlancoChallenge.Api.csproj|c:\\users\\ulipv\\source\\repos\\grupoblancochallenge\\grupoblancochallenge.api\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A89B3B5-A531-455F-A75A-BB2019FCC2DF}|GrupoBlancoChallenge.Api\\GrupoBlancoChallenge.Api.csproj|solutionrelative:grupoblancochallenge.api\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6A89B3B5-A531-455F-A75A-BB2019FCC2DF}|GrupoBlancoChallenge.Api\\GrupoBlancoChallenge.Api.csproj|c:\\users\\ulipv\\source\\repos\\grupoblancochallenge\\grupoblancochallenge.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A89B3B5-A531-455F-A75A-BB2019FCC2DF}|GrupoBlancoChallenge.Api\\GrupoBlancoChallenge.Api.csproj|solutionrelative:grupoblancochallenge.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18F5E387-947B-4A72-8852-C2F86715934F}|GrupoBlancoChallenge.Application\\GrupoBlancoChallenge.Application.csproj|c:\\users\\ulipv\\source\\repos\\grupoblancochallenge\\grupoblancochallenge.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18F5E387-947B-4A72-8852-C2F86715934F}|GrupoBlancoChallenge.Application\\GrupoBlancoChallenge.Application.csproj|solutionrelative:grupoblancochallenge.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18F5E387-947B-4A72-8852-C2F86715934F}|GrupoBlancoChallenge.Application\\GrupoBlancoChallenge.Application.csproj|c:\\users\\ulipv\\source\\repos\\grupoblancochallenge\\grupoblancochallenge.application\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18F5E387-947B-4A72-8852-C2F86715934F}|GrupoBlancoChallenge.Application\\GrupoBlancoChallenge.Application.csproj|solutionrelative:grupoblancochallenge.application\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18F5E387-947B-4A72-8852-C2F86715934F}|GrupoBlancoChallenge.Application\\GrupoBlancoChallenge.Application.csproj|c:\\users\\ulipv\\source\\repos\\grupoblancochallenge\\grupoblancochallenge.application\\interfaces\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18F5E387-947B-4A72-8852-C2F86715934F}|GrupoBlancoChallenge.Application\\GrupoBlancoChallenge.Application.csproj|solutionrelative:grupoblancochallenge.application\\interfaces\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,79 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RankingController.cs",
-              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\GrupoBlancoChallenge.Api\\Controllers\\RankingController.cs",
-              "RelativeDocumentMoniker": "GrupoBlancoChallenge.Api\\Controllers\\RankingController.cs",
-              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\GrupoBlancoChallenge.Api\\Controllers\\RankingController.cs",
-              "RelativeToolTip": "GrupoBlancoChallenge.Api\\Controllers\\RankingController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T02:19:44.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameController.cs",
-              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\GrupoBlancoChallenge.Api\\Controllers\\GameController.cs",
-              "RelativeDocumentMoniker": "GrupoBlancoChallenge.Api\\Controllers\\GameController.cs",
-              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\GrupoBlancoChallenge.Api\\Controllers\\GameController.cs",
-              "RelativeToolTip": "GrupoBlancoChallenge.Api\\Controllers\\GameController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA5wA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T02:19:12.26Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\GrupoBlancoChallenge.Api\\Program.cs",
               "RelativeDocumentMoniker": "GrupoBlancoChallenge.Api\\Program.cs",
               "ToolTip": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\GrupoBlancoChallenge.Api\\Program.cs",
               "RelativeToolTip": "GrupoBlancoChallenge.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-21T02:18:36.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\GrupoBlancoChallenge.Application\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "GrupoBlancoChallenge.Application\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\GrupoBlancoChallenge.Application\\DependencyInjection.cs",
-              "RelativeToolTip": "GrupoBlancoChallenge.Application\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T02:18:10.194Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GameService.cs",
-              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\GrupoBlancoChallenge.Application\\Services\\GameService.cs",
-              "RelativeDocumentMoniker": "GrupoBlancoChallenge.Application\\Services\\GameService.cs",
-              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\GrupoBlancoChallenge.Application\\Services\\GameService.cs",
-              "RelativeToolTip": "GrupoBlancoChallenge.Application\\Services\\GameService.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAcwIcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T02:17:07.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IGameService.cs",
-              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\GrupoBlancoChallenge.Application\\Interfaces\\IGameService.cs",
-              "RelativeDocumentMoniker": "GrupoBlancoChallenge.Application\\Interfaces\\IGameService.cs",
-              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\GrupoBlancoChallenge.Application\\Interfaces\\IGameService.cs",
-              "RelativeToolTip": "GrupoBlancoChallenge.Application\\Interfaces\\IGameService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T02:16:32.632Z",
               "EditorCaption": ""
             }
           ]
