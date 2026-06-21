@@ -1,0 +1,6 @@
+@GrupoBlancoChallenge.Api_HostAddress = http://localhost:5260
+
+GET {{GrupoBlancoChallenge.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
