@@ -1,0 +1,15 @@
+C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Domain\bin\Debug\net8.0\GrupoBlancoChallenge.Domain.deps.json
+C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Domain\bin\Debug\net8.0\GrupoBlancoChallenge.Domain.runtimeconfig.json
+C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Domain\bin\Debug\net8.0\GrupoBlancoChallenge.Domain.dll
+C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Domain\bin\Debug\net8.0\GrupoBlancoChallenge.Domain.pdb
+C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Domain\obj\Debug\net8.0\GrupoBlancoChallenge.Domain.csproj.AssemblyReference.cache
+C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Domain\obj\Debug\net8.0\GrupoBlancoChallenge.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Domain\obj\Debug\net8.0\GrupoBlancoChallenge.Domain.AssemblyInfoInputs.cache
+C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Domain\obj\Debug\net8.0\GrupoBlancoChallenge.Domain.AssemblyInfo.cs
+C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Domain\obj\Debug\net8.0\GrupoBlancoChallenge.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Domain\obj\Debug\net8.0\GrupoBlancoChallenge.Domain.sourcelink.json
+C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Domain\obj\Debug\net8.0\GrupoBlancoChallenge.Domain.dll
+C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Domain\obj\Debug\net8.0\refint\GrupoBlancoChallenge.Domain.dll
+C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Domain\obj\Debug\net8.0\GrupoBlancoChallenge.Domain.pdb
+C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Domain\obj\Debug\net8.0\GrupoBlancoChallenge.Domain.genruntimeconfig.cache
+C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Domain\obj\Debug\net8.0\ref\GrupoBlancoChallenge.Domain.dll

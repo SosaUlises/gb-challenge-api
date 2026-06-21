@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "l0hzbRTo9J8=",
+  "dgSpecHash": "za9+vlU/RWw=",
   "success": true,
   "projectFilePath": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\GrupoBlancoChallenge.Api\\GrupoBlancoChallenge.Api.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,7 @@
     "C:\\Users\\ulipv\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.17\\microsoft.entityframeworkcore.analyzers.9.0.17.nupkg.sha512",
     "C:\\Users\\ulipv\\.nuget\\packages\\microsoft.entityframeworkcore.design\\9.0.17\\microsoft.entityframeworkcore.design.9.0.17.nupkg.sha512",
     "C:\\Users\\ulipv\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\9.0.17\\microsoft.entityframeworkcore.relational.9.0.17.nupkg.sha512",
+    "C:\\Users\\ulipv\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\9.0.17\\microsoft.entityframeworkcore.tools.9.0.17.nupkg.sha512",
     "C:\\Users\\ulipv\\.nuget\\packages\\microsoft.extensions.apidescription.server\\8.0.0\\microsoft.extensions.apidescription.server.8.0.0.nupkg.sha512",
     "C:\\Users\\ulipv\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.17\\microsoft.extensions.caching.abstractions.9.0.17.nupkg.sha512",
     "C:\\Users\\ulipv\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.17\\microsoft.extensions.caching.memory.9.0.17.nupkg.sha512",

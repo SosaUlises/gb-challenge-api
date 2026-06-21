@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("62b06ae2-8908-4f61-bbe8-aa1ce07738d2")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("GrupoBlancoChallenge.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9dd4c73a3d614c703afa82c2b974a94c474dba56")]
 [assembly: System.Reflection.AssemblyProductAttribute("GrupoBlancoChallenge.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GrupoBlancoChallenge.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
