@@ -3,12 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\GrupoBlancoChallenge.Infraestructure\\Migrations\\20260621025551_Ranking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GrupoBlancoChallenge.Infraestructure\\Migrations\\20260621025551_Ranking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18F5E387-947B-4A72-8852-C2F86715934F}|GrupoBlancoChallenge.Application\\GrupoBlancoChallenge.Application.csproj|c:\\users\\ulipv\\source\\repos\\grupoblancochallenge\\grupoblancochallenge.application\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18F5E387-947B-4A72-8852-C2F86715934F}|GrupoBlancoChallenge.Application\\GrupoBlancoChallenge.Application.csproj|solutionrelative:grupoblancochallenge.application\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ulipv\\AppData\\Roaming\\Microsoft\\UserSecrets\\62b06ae2-8908-4f61-bbe8-aa1ce07738d2\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,27 +26,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20260621025551_Ranking.cs",
-              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\GrupoBlancoChallenge.Infraestructure\\Migrations\\20260621025551_Ranking.cs",
-              "RelativeDocumentMoniker": "GrupoBlancoChallenge.Infraestructure\\Migrations\\20260621025551_Ranking.cs",
-              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\GrupoBlancoChallenge.Infraestructure\\Migrations\\20260621025551_Ranking.cs",
-              "RelativeToolTip": "GrupoBlancoChallenge.Infraestructure\\Migrations\\20260621025551_Ranking.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T02:55:51.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameService.cs",
-              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\GrupoBlancoChallenge.Application\\Services\\GameService.cs",
-              "RelativeDocumentMoniker": "GrupoBlancoChallenge.Application\\Services\\GameService.cs",
-              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\GrupoBlancoChallenge.Application\\Services\\GameService.cs",
-              "RelativeToolTip": "GrupoBlancoChallenge.Application\\Services\\GameService.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAuwGoAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T02:53:36.565Z",
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\ulipv\\AppData\\Roaming\\Microsoft\\UserSecrets\\62b06ae2-8908-4f61-bbe8-aa1ce07738d2\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\62b06ae2-8908-4f61-bbe8-aa1ce07738d2\\secrets.json",
+              "ToolTip": "C:\\Users\\ulipv\\AppData\\Roaming\\Microsoft\\UserSecrets\\62b06ae2-8908-4f61-bbe8-aa1ce07738d2\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\62b06ae2-8908-4f61-bbe8-aa1ce07738d2\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAADpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-21T03:15:21.127Z",
               "EditorCaption": ""
             }
           ]

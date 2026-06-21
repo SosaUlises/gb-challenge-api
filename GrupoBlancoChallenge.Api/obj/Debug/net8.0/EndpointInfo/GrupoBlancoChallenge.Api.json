@@ -265,6 +265,10 @@
             "type": "integer",
             "format": "int32"
           },
+          "finalRating": {
+            "type": "string",
+            "nullable": true
+          },
           "currentScenario": {
             "$ref": "#/components/schemas/ScenarioResponse"
           }
@@ -281,6 +285,10 @@
           "finalScore": {
             "type": "integer",
             "format": "int32"
+          },
+          "finalRating": {
+            "type": "string",
+            "nullable": true
           },
           "playedAt": {
             "type": "string",

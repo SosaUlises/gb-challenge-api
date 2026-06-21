@@ -348,5 +348,180 @@
         "operationalEfficiencyImpact": 0
       }
     ]
+  },
+  {
+    "order": 11,
+    "title": "Un influencer viraliza una crítica",
+    "description": "Un creador de contenido publica un video criticando la calidad de una línea de calzado. El video empieza a circular y varios clientes consultan si el problema es real.",
+    "topic": "Imagen de marca",
+    "options": [
+      {
+        "text": "Responder públicamente, reconocer el caso y explicar el proceso de revisión.",
+        "consequence": "La empresa muestra transparencia y protege su reputación, aunque queda expuesta durante algunos días.",
+        "rentabilityImpact": -5,
+        "clientsImpact": 10,
+        "organizationalClimateImpact": 5,
+        "brandImageImpact": 20,
+        "operationalEfficiencyImpact": 0
+      },
+      {
+        "text": "Ignorar el video esperando que pierda alcance.",
+        "consequence": "Evitaste intervenir, pero la falta de respuesta alimentó dudas sobre la marca.",
+        "rentabilityImpact": 5,
+        "clientsImpact": -10,
+        "organizationalClimateImpact": 0,
+        "brandImageImpact": -20,
+        "operationalEfficiencyImpact": 0
+      },
+      {
+        "text": "Contactar al influencer en privado y ofrecerle productos nuevos.",
+        "consequence": "La situación se contiene parcialmente, pero algunos clientes perciben poca transparencia.",
+        "rentabilityImpact": -5,
+        "clientsImpact": 5,
+        "organizationalClimateImpact": 0,
+        "brandImageImpact": 5,
+        "operationalEfficiencyImpact": 0
+      }
+    ]
+  },
+  {
+    "order": 12,
+    "title": "Falla el sistema en plena temporada alta",
+    "description": "Durante una semana clave de ventas, el sistema de stock y facturación comienza a fallar. Ventas, administración y depósito no logran trabajar con información actualizada.",
+    "topic": "Sistemas y estructura",
+    "options": [
+      {
+        "text": "Activar un plan manual de emergencia y seguir vendiendo.",
+        "consequence": "La empresa sostiene la operación, pero aumentan los errores y la carga de trabajo.",
+        "rentabilityImpact": 5,
+        "clientsImpact": -5,
+        "organizationalClimateImpact": -15,
+        "brandImageImpact": -5,
+        "operationalEfficiencyImpact": -20
+      },
+      {
+        "text": "Pausar parte de la operación para corregir el sistema.",
+        "consequence": "Se pierde venta inmediata, pero se evita un desorden mayor en pedidos y stock.",
+        "rentabilityImpact": -10,
+        "clientsImpact": -5,
+        "organizationalClimateImpact": 5,
+        "brandImageImpact": 0,
+        "operationalEfficiencyImpact": 15
+      },
+      {
+        "text": "Contratar soporte externo urgente y reforzar controles entre áreas.",
+        "consequence": "La solución tuvo costo, pero permitió recuperar coordinación y reducir errores.",
+        "rentabilityImpact": -15,
+        "clientsImpact": 10,
+        "organizationalClimateImpact": 5,
+        "brandImageImpact": 5,
+        "operationalEfficiencyImpact": 25
+      }
+    ]
+  },
+  {
+    "order": 13,
+    "title": "Un gerente clave amenaza con irse",
+    "description": "Un gerente con mucho conocimiento de marcas y clientes recibe una oferta de otra empresa. Su salida podría afectar relaciones comerciales importantes.",
+    "topic": "Talento y liderazgo",
+    "options": [
+      {
+        "text": "Ofrecer una mejora salarial y mayor autonomía.",
+        "consequence": "La empresa retiene talento crítico, pero aumenta su costo fijo y debe sostener la promesa de autonomía.",
+        "rentabilityImpact": -10,
+        "clientsImpact": 10,
+        "organizationalClimateImpact": 15,
+        "brandImageImpact": 5,
+        "operationalEfficiencyImpact": 10
+      },
+      {
+        "text": "Dejar que se vaya y redistribuir sus tareas.",
+        "consequence": "Se cuidan costos, pero se pierde conocimiento clave y aumenta la sobrecarga del equipo.",
+        "rentabilityImpact": 5,
+        "clientsImpact": -15,
+        "organizationalClimateImpact": -15,
+        "brandImageImpact": -5,
+        "operationalEfficiencyImpact": -10
+      },
+      {
+        "text": "Crear un plan de sucesión y negociar una transición ordenada.",
+        "consequence": "No garantiza retención, pero reduce dependencia de una sola persona y fortalece la estructura.",
+        "rentabilityImpact": -5,
+        "clientsImpact": 5,
+        "organizationalClimateImpact": 10,
+        "brandImageImpact": 5,
+        "operationalEfficiencyImpact": 15
+      }
+    ]
+  },
+  {
+    "order": 14,
+    "title": "Una marca pide exclusividad total",
+    "description": "Una marca internacional ofrece mejores condiciones, pero exige que Grupo Blanco reduzca el trabajo con marcas competidoras del mismo segmento.",
+    "topic": "Poder de proveedores",
+    "options": [
+      {
+        "text": "Aceptar la exclusividad para fortalecer el vínculo con la marca.",
+        "consequence": "La empresa gana apoyo del proveedor, pero aumenta su dependencia estratégica.",
+        "rentabilityImpact": 10,
+        "clientsImpact": 5,
+        "organizationalClimateImpact": 0,
+        "brandImageImpact": 15,
+        "operationalEfficiencyImpact": 0
+      },
+      {
+        "text": "Rechazar la exclusividad y mantener el portafolio diversificado.",
+        "consequence": "La empresa conserva autonomía, pero puede perder beneficios comerciales.",
+        "rentabilityImpact": -5,
+        "clientsImpact": 5,
+        "organizationalClimateImpact": 0,
+        "brandImageImpact": -5,
+        "operationalEfficiencyImpact": 5
+      },
+      {
+        "text": "Negociar exclusividad parcial por canal o región.",
+        "consequence": "La empresa logra un equilibrio entre compromiso con la marca y preservación del portafolio.",
+        "rentabilityImpact": 5,
+        "clientsImpact": 10,
+        "organizationalClimateImpact": 0,
+        "brandImageImpact": 10,
+        "operationalEfficiencyImpact": 5
+      }
+    ]
+  },
+  {
+    "order": 15,
+    "title": "Aparece una oportunidad de marca propia",
+    "description": "El equipo comercial detecta que varios clientes piden una línea de calzado más accesible. Surge la posibilidad de desarrollar una marca propia para cubrir ese segmento.",
+    "topic": "Ventaja competitiva",
+    "options": [
+      {
+        "text": "Lanzar la marca propia rápidamente para aprovechar la oportunidad.",
+        "consequence": "La empresa gana autonomía y potencial de margen, pero asume riesgo por falta de prueba de mercado.",
+        "rentabilityImpact": -15,
+        "clientsImpact": 15,
+        "organizationalClimateImpact": 5,
+        "brandImageImpact": 10,
+        "operationalEfficiencyImpact": -10
+      },
+      {
+        "text": "Hacer una prueba piloto con pocos modelos y clientes seleccionados.",
+        "consequence": "La empresa valida la oportunidad con menor riesgo y aprende antes de escalar.",
+        "rentabilityImpact": 0,
+        "clientsImpact": 15,
+        "organizationalClimateImpact": 5,
+        "brandImageImpact": 10,
+        "operationalEfficiencyImpact": 10
+      },
+      {
+        "text": "Descartar la marca propia para no competir con proveedores actuales.",
+        "consequence": "La empresa evita conflictos con marcas internacionales, pero mantiene su dependencia externa.",
+        "rentabilityImpact": 5,
+        "clientsImpact": -10,
+        "organizationalClimateImpact": 0,
+        "brandImageImpact": -5,
+        "operationalEfficiencyImpact": 0
+      }
+    ]
   }
 ]
