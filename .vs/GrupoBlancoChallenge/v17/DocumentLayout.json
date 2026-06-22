@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A32B56C1-D837-40A8-BD99-08994F4BF8C7}|GrupoBlancoChallenge.Infraestructure\\GrupoBlancoChallenge.Infraestructure.csproj|c:\\users\\ulipv\\source\\repos\\grupoblancochallenge\\grupoblancochallenge.infraestructure\\persistence\\seed\\scenarios.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A32B56C1-D837-40A8-BD99-08994F4BF8C7}|GrupoBlancoChallenge.Infraestructure\\GrupoBlancoChallenge.Infraestructure.csproj|solutionrelative:grupoblancochallenge.infraestructure\\persistence\\seed\\scenarios.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6A89B3B5-A531-455F-A75A-BB2019FCC2DF}|GrupoBlancoChallenge.Api\\GrupoBlancoChallenge.Api.csproj|c:\\users\\ulipv\\source\\repos\\grupoblancochallenge\\grupoblancochallenge.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A89B3B5-A531-455F-A75A-BB2019FCC2DF}|GrupoBlancoChallenge.Api\\GrupoBlancoChallenge.Api.csproj|solutionrelative:grupoblancochallenge.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -27,6 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "scenarios.json",
+              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\GrupoBlancoChallenge.Infraestructure\\Persistence\\Seed\\scenarios.json",
+              "RelativeDocumentMoniker": "GrupoBlancoChallenge.Infraestructure\\Persistence\\Seed\\scenarios.json",
+              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\GrupoBlancoChallenge.Infraestructure\\Persistence\\Seed\\scenarios.json",
+              "RelativeToolTip": "GrupoBlancoChallenge.Infraestructure\\Persistence\\Seed\\scenarios.json",
+              "ViewState": "AgIAAEoBAAAAAAAAAAAAAHUBAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-22T15:56:32.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\GrupoBlancoChallenge.Api\\Program.cs",
               "RelativeDocumentMoniker": "GrupoBlancoChallenge.Api\\Program.cs",
