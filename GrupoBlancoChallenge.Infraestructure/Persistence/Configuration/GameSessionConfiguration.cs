@@ -27,6 +27,8 @@ namespace GrupoBlancoChallenge.Infraestructure.Persistence.Configuration
             builder.Property(x => x.FinalRating)
             .IsRequired()
             .HasMaxLength(100);
+            builder.Property(x => x.WasCompanySold).IsRequired();
+            builder.Property(x => x.FinishedAtMonth).IsRequired();
         }
     }
 }

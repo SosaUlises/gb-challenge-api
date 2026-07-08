@@ -3,6 +3,7 @@ using System;
 using GrupoBlancoChallenge.Infraestructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace GrupoBlancoChallenge.Infraestructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260708194154_pasda")]
+    partial class pasda
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -115,9 +118,6 @@ namespace GrupoBlancoChallenge.Infraestructure.Migrations
                     b.Property<int>("FinalScore")
                         .HasColumnType("integer");
 
-                    b.Property<int>("FinishedAtMonth")
-                        .HasColumnType("integer");
-
                     b.Property<bool>("IsFinished")
                         .HasColumnType("boolean");
 
@@ -134,9 +134,6 @@ namespace GrupoBlancoChallenge.Infraestructure.Migrations
 
                     b.Property<int>("Rentability")
                         .HasColumnType("integer");
-
-                    b.Property<bool>("WasCompanySold")
-                        .HasColumnType("boolean");
 
                     b.HasKey("Id");
 
@@ -188,9 +185,6 @@ namespace GrupoBlancoChallenge.Infraestructure.Migrations
                     b.Property<int>("FinalScore")
                         .HasColumnType("integer");
 
-                    b.Property<int>("FinishedAtMonth")
-                        .HasColumnType("integer");
-
                     b.Property<DateTime>("PlayedAt")
                         .HasColumnType("timestamp with time zone");
 
@@ -198,9 +192,6 @@ namespace GrupoBlancoChallenge.Infraestructure.Migrations
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("character varying(100)");
-
-                    b.Property<bool>("WasCompanySold")
-                        .HasColumnType("boolean");
 
                     b.HasKey("Id");
 

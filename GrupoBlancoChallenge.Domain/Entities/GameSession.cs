@@ -18,6 +18,8 @@
 
         public int FinalScore { get; private set; }
         public string FinalRating { get; private set; } = string.Empty;
+        public bool WasCompanySold { get; private set; }
+        public int FinishedAtMonth { get; private set; }
 
         private GameSession() { }
 
@@ -42,16 +44,29 @@
 
             if (isLastScenario)
             {
-                Finish();
+                Finish(false);
                 return;
             }
 
             CurrentScenarioOrder++;
         }
 
-        private void Finish()
+        public void SellCompany()
+        {
+            if (IsFinished)
+                throw new InvalidOperationException("La partida ya finalizó.");
+
+            if (CurrentScenarioOrder <= 1)
+                throw new InvalidOperationException("Debes tomar al menos una decisión antes de vender la empresa.");
+
+            Finish(true);
+        }
+
+        private void Finish(bool wasCompanySold)
         {
             IsFinished = true;
+            WasCompanySold = wasCompanySold;
+            FinishedAtMonth = CurrentScenarioOrder;
 
             FinalScore = (int)Math.Round(
                 Rentability * 0.30 +

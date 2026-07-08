@@ -86,13 +86,7 @@ namespace GrupoBlancoChallenge.Application.Services
 
             if (gameSession.IsFinished)
             {
-                var rankingEntry = new RankingEntry(
-                     gameSession.PlayerName,
-                     gameSession.FinalScore,
-                     gameSession.FinalRating
-                 );
-
-                _context.RankingEntries.Add(rankingEntry);
+                AddRankingEntry(gameSession);
             }
 
             await _context.SaveChangesAsync();
@@ -102,6 +96,22 @@ namespace GrupoBlancoChallenge.Application.Services
                 Consequence = option.Consequence,
                 GameSession = await BuildGameSessionResponseAsync(gameSession)
             };
+        }
+
+        public async Task<GameSessionResponse> SellCompanyAsync(SellCompanyRequest request)
+        {
+            var gameSession = await _context.GameSessions
+                .FirstOrDefaultAsync(x => x.Id == request.GameSessionId);
+
+            if (gameSession is null)
+                throw new InvalidOperationException("La partida no existe.");
+
+            gameSession.SellCompany();
+            AddRankingEntry(gameSession);
+
+            await _context.SaveChangesAsync();
+
+            return await BuildGameSessionResponseAsync(gameSession);
         }
 
         public async Task<List<RankingResponse>> GetRankingAsync()
@@ -115,6 +125,8 @@ namespace GrupoBlancoChallenge.Application.Services
                     PlayerName = x.PlayerName,
                     FinalScore = x.FinalScore,
                     FinalRating = x.FinalRating,
+                    WasCompanySold = x.WasCompanySold,
+                    FinishedAtMonth = x.FinishedAtMonth,
                     PlayedAt = x.PlayedAt
                 })
                 .ToListAsync();
@@ -161,8 +173,23 @@ namespace GrupoBlancoChallenge.Application.Services
                 IsFinished = gameSession.IsFinished,
                 FinalScore = gameSession.FinalScore,
                 FinalRating = gameSession.FinalRating,
+                WasCompanySold = gameSession.WasCompanySold,
+                FinishedAtMonth = gameSession.FinishedAtMonth,
                 CurrentScenario = currentScenario
             };
+        }
+
+        private void AddRankingEntry(GameSession gameSession)
+        {
+            var rankingEntry = new RankingEntry(
+                gameSession.PlayerName,
+                gameSession.FinalScore,
+                gameSession.FinalRating,
+                gameSession.WasCompanySold,
+                gameSession.FinishedAtMonth
+            );
+
+            _context.RankingEntries.Add(rankingEntry);
         }
 
         private async Task<List<Scenario>> SelectMonthlyScenariosAsync()

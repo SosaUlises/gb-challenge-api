@@ -7,6 +7,7 @@ namespace GrupoBlancoChallenge.Application.Interfaces
         Task<GameSessionResponse> StartGameAsync(StartGameRequest request);
         Task<GameSessionResponse?> GetGameAsync(Guid gameSessionId);
         Task<DecisionResultResponse> ChooseOptionAsync(ChooseOptionRequest request);
+        Task<GameSessionResponse> SellCompanyAsync(SellCompanyRequest request);
         Task<List<RankingResponse>> GetRankingAsync();
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GrupoBlancoChallenge.Infraestructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86e3402bdc0bd8fb700b47a8ca0d18442678c153")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ae56ea9e3ae2f34c82e57fa26950f84a8936b60")]
 [assembly: System.Reflection.AssemblyProductAttribute("GrupoBlancoChallenge.Infraestructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GrupoBlancoChallenge.Infraestructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

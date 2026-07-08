@@ -59,5 +59,20 @@ namespace GrupoBlancoChallenge.Api.Controllers
                 return BadRequest(new { message = ex.Message });
             }
         }
+
+        [HttpPost("sell-company")]
+        public async Task<ActionResult<GameSessionResponse>> SellCompany(
+            [FromBody] SellCompanyRequest request)
+        {
+            try
+            {
+                var result = await _gameService.SellCompanyAsync(request);
+                return Ok(result);
+            }
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+        }
     }
 }
