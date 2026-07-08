@@ -10,6 +10,10 @@ namespace GrupoBlancoChallenge.Infraestructure.Persistence.Seed
     {
         public int Order { get; set; }
 
+        public int Month { get; set; }
+
+        public string Quarter { get; set; } = string.Empty;
+
         public string Title { get; set; } = string.Empty;
 
         public string Description { get; set; } = string.Empty;

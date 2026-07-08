@@ -28,6 +28,10 @@ namespace GrupoBlancoChallenge.Api.Controllers
             {
                 return BadRequest(new { message = ex.Message });
             }
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
         }
 
         [HttpGet("{gameSessionId:guid}")]

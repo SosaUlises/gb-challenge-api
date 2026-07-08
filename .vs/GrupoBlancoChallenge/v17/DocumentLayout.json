@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{A32B56C1-D837-40A8-BD99-08994F4BF8C7}|GrupoBlancoChallenge.Infraestructure\\GrupoBlancoChallenge.Infraestructure.csproj|solutionrelative:grupoblancochallenge.infraestructure\\persistence\\seed\\scenarios.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A32B56C1-D837-40A8-BD99-08994F4BF8C7}|GrupoBlancoChallenge.Infraestructure\\GrupoBlancoChallenge.Infraestructure.csproj|c:\\users\\ulipv\\source\\repos\\grupoblancochallenge\\grupoblancochallenge.infraestructure\\persistence\\seed\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32B56C1-D837-40A8-BD99-08994F4BF8C7}|GrupoBlancoChallenge.Infraestructure\\GrupoBlancoChallenge.Infraestructure.csproj|solutionrelative:grupoblancochallenge.infraestructure\\persistence\\seed\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6A89B3B5-A531-455F-A75A-BB2019FCC2DF}|GrupoBlancoChallenge.Api\\GrupoBlancoChallenge.Api.csproj|c:\\users\\ulipv\\source\\repos\\grupoblancochallenge\\grupoblancochallenge.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A89B3B5-A531-455F-A75A-BB2019FCC2DF}|GrupoBlancoChallenge.Api\\GrupoBlancoChallenge.Api.csproj|solutionrelative:grupoblancochallenge.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32B56C1-D837-40A8-BD99-08994F4BF8C7}|GrupoBlancoChallenge.Infraestructure\\GrupoBlancoChallenge.Infraestructure.csproj|c:\\users\\ulipv\\source\\repos\\grupoblancochallenge\\grupoblancochallenge.infraestructure\\migrations\\20260622161108_pe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32B56C1-D837-40A8-BD99-08994F4BF8C7}|GrupoBlancoChallenge.Infraestructure\\GrupoBlancoChallenge.Infraestructure.csproj|solutionrelative:grupoblancochallenge.infraestructure\\migrations\\20260622161108_pe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 422,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,6 +37,34 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\GrupoBlancoChallenge.Infraestructure\\Persistence\\Seed\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "GrupoBlancoChallenge.Infraestructure\\Persistence\\Seed\\DataSeeder.cs",
+              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\GrupoBlancoChallenge.Infraestructure\\Persistence\\Seed\\DataSeeder.cs",
+              "RelativeToolTip": "GrupoBlancoChallenge.Infraestructure\\Persistence\\Seed\\DataSeeder.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T16:15:35.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20260622161108_pe.cs",
+              "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\GrupoBlancoChallenge.Infraestructure\\Migrations\\20260622161108_pe.cs",
+              "RelativeDocumentMoniker": "GrupoBlancoChallenge.Infraestructure\\Migrations\\20260622161108_pe.cs",
+              "ToolTip": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\GrupoBlancoChallenge.Infraestructure\\Migrations\\20260622161108_pe.cs",
+              "RelativeToolTip": "GrupoBlancoChallenge.Infraestructure\\Migrations\\20260622161108_pe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T16:11:09.198Z"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "scenarios.json",
@@ -36,14 +72,14 @@
               "RelativeDocumentMoniker": "GrupoBlancoChallenge.Infraestructure\\Persistence\\Seed\\scenarios.json",
               "ToolTip": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\GrupoBlancoChallenge.Infraestructure\\Persistence\\Seed\\scenarios.json",
               "RelativeToolTip": "GrupoBlancoChallenge.Infraestructure\\Persistence\\Seed\\scenarios.json",
-              "ViewState": "AgIAAEoBAAAAAAAAAAAAAHUBAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAPECAAAAAAAAAAAAAAUAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-06-22T15:56:32.939Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ulipv\\source\\repos\\GrupoBlancoChallenge\\GrupoBlancoChallenge.Api\\Program.cs",
               "RelativeDocumentMoniker": "GrupoBlancoChallenge.Api\\Program.cs",
@@ -51,8 +87,7 @@
               "RelativeToolTip": "GrupoBlancoChallenge.Api\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T15:29:29.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-22T15:29:29.121Z"
             },
             {
               "$type": "Bookmark",

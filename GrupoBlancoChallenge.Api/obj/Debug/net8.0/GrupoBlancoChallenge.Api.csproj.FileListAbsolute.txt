@@ -135,7 +135,6 @@ C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Api\obj\De
 C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Api\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Api\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Api\obj\Debug\net8.0\GrupoBla.4204F1AA.Up2Date
 C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Api\obj\Debug\net8.0\GrupoBlancoChallenge.Api.dll
 C:\Users\ulipv\source\repos\GrupoBlancoChallenge\GrupoBlancoChallenge.Api\obj\Debug\net8.0\refint\GrupoBlancoChallenge.Api.dll

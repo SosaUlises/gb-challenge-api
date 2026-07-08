@@ -137,6 +137,37 @@ namespace GrupoBlancoChallenge.Infraestructure.Migrations
                     b.ToTable("game_sessions", (string)null);
                 });
 
+            modelBuilder.Entity("GrupoBlancoChallenge.Domain.Entities.GameSessionScenario", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("GameSessionId")
+                        .HasColumnType("uuid");
+
+                    b.Property<int>("Month")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("Position")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid>("ScenarioId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ScenarioId");
+
+                    b.HasIndex("GameSessionId", "Month")
+                        .IsUnique();
+
+                    b.HasIndex("GameSessionId", "Position")
+                        .IsUnique();
+
+                    b.ToTable("game_session_scenarios", (string)null);
+                });
+
             modelBuilder.Entity("GrupoBlancoChallenge.Domain.Entities.RankingEntry", b =>
                 {
                     b.Property<Guid>("Id")
@@ -175,8 +206,16 @@ namespace GrupoBlancoChallenge.Infraestructure.Migrations
                         .HasMaxLength(1000)
                         .HasColumnType("character varying(1000)");
 
+                    b.Property<int>("Month")
+                        .HasColumnType("integer");
+
                     b.Property<int>("Order")
                         .HasColumnType("integer");
+
+                    b.Property<string>("Quarter")
+                        .IsRequired()
+                        .HasMaxLength(2)
+                        .HasColumnType("character varying(2)");
 
                     b.Property<string>("Title")
                         .IsRequired()
@@ -225,6 +264,25 @@ namespace GrupoBlancoChallenge.Infraestructure.Migrations
                         .IsRequired();
 
                     b.Navigation("DecisionOption");
+
+                    b.Navigation("GameSession");
+
+                    b.Navigation("Scenario");
+                });
+
+            modelBuilder.Entity("GrupoBlancoChallenge.Domain.Entities.GameSessionScenario", b =>
+                {
+                    b.HasOne("GrupoBlancoChallenge.Domain.Entities.GameSession", "GameSession")
+                        .WithMany()
+                        .HasForeignKey("GameSessionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("GrupoBlancoChallenge.Domain.Entities.Scenario", "Scenario")
+                        .WithMany()
+                        .HasForeignKey("ScenarioId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
                     b.Navigation("GameSession");
 

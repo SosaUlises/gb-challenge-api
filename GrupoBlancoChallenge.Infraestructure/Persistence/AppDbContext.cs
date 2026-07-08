@@ -16,6 +16,7 @@ namespace GrupoBlancoChallenge.Infraestructure.Persistence
         public DbSet<Scenario> Scenarios => Set<Scenario>();
         public DbSet<DecisionOption> DecisionOptions => Set<DecisionOption>();
         public DbSet<RankingEntry> RankingEntries => Set<RankingEntry>();
+        public DbSet<GameSessionScenario> GameSessionScenarios => Set<GameSessionScenario>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

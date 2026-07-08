@@ -15,6 +15,13 @@ namespace GrupoBlancoChallenge.Infraestructure.Persistence.Configuration
             builder.Property(x => x.Order)
                 .IsRequired();
 
+            builder.Property(x => x.Month)
+                .IsRequired();
+
+            builder.Property(x => x.Quarter)
+                .IsRequired()
+                .HasMaxLength(2);
+
             builder.Property(x => x.Title)
                 .IsRequired()
                 .HasMaxLength(150);

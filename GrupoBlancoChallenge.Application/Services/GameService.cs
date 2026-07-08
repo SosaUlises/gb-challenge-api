@@ -7,6 +7,8 @@ namespace GrupoBlancoChallenge.Application.Services
 {
     public class GameService : IGameService
     {
+        private const int TotalScenariosPerGame = 12;
+
         private readonly IApplicationDbContext _context;
 
         public GameService(IApplicationDbContext context)
@@ -20,8 +22,17 @@ namespace GrupoBlancoChallenge.Application.Services
                 throw new ArgumentException("El nombre del jugador es obligatorio.");
 
             var gameSession = new GameSession(request.PlayerName);
+            var selectedScenarios = await SelectMonthlyScenariosAsync();
 
             _context.GameSessions.Add(gameSession);
+            _context.GameSessionScenarios.AddRange(
+                selectedScenarios.Select((scenario, index) =>
+                    new GameSessionScenario(
+                        gameSession.Id,
+                        scenario.Id,
+                        index + 1,
+                        scenario.Month
+                    )));
 
             await _context.SaveChangesAsync();
 
@@ -50,9 +61,7 @@ namespace GrupoBlancoChallenge.Application.Services
             if (gameSession.IsFinished)
                 throw new InvalidOperationException("La partida ya finalizó.");
 
-            var currentScenario = await _context.Scenarios
-                .Include(x => x.Options)
-                .FirstOrDefaultAsync(x => x.Order == gameSession.CurrentScenarioOrder);
+            var currentScenario = await GetCurrentScenarioAsync(gameSession);
 
             if (currentScenario is null)
                 throw new InvalidOperationException("No se encontró el escenario actual.");
@@ -63,10 +72,7 @@ namespace GrupoBlancoChallenge.Application.Services
             if (option is null)
                 throw new InvalidOperationException("La opción seleccionada no pertenece al escenario actual.");
 
-            var lastScenarioOrder = await _context.Scenarios
-                .MaxAsync(x => x.Order);
-
-            var isLastScenario = currentScenario.Order == lastScenarioOrder;
+            var isLastScenario = gameSession.CurrentScenarioOrder >= TotalScenariosPerGame;
 
             gameSession.ApplyDecision(option, isLastScenario);
 
@@ -120,9 +126,7 @@ namespace GrupoBlancoChallenge.Application.Services
 
             if (!gameSession.IsFinished)
             {
-                var scenario = await _context.Scenarios
-                    .Include(x => x.Options)
-                    .FirstOrDefaultAsync(x => x.Order == gameSession.CurrentScenarioOrder);
+                var scenario = await GetCurrentScenarioAsync(gameSession);
 
                 if (scenario is not null)
                 {
@@ -130,6 +134,8 @@ namespace GrupoBlancoChallenge.Application.Services
                     {
                         Id = scenario.Id,
                         Order = scenario.Order,
+                        Month = scenario.Month,
+                        Quarter = scenario.Quarter,
                         Title = scenario.Title,
                         Description = scenario.Description,
                         Topic = scenario.Topic,
@@ -157,6 +163,56 @@ namespace GrupoBlancoChallenge.Application.Services
                 FinalRating = gameSession.FinalRating,
                 CurrentScenario = currentScenario
             };
+        }
+
+        private async Task<List<Scenario>> SelectMonthlyScenariosAsync()
+        {
+            var scenarioPool = await _context.Scenarios
+                .Where(x =>
+                    x.Month >= 1 &&
+                    x.Month <= TotalScenariosPerGame &&
+                    x.Order >= 100)
+                .ToListAsync();
+
+            if (scenarioPool.Count == 0)
+            {
+                scenarioPool = await _context.Scenarios
+                    .Where(x => x.Month >= 1 && x.Month <= TotalScenariosPerGame)
+                    .ToListAsync();
+            }
+
+            var selectedScenarios = new List<Scenario>();
+
+            for (var month = 1; month <= TotalScenariosPerGame; month++)
+            {
+                var monthScenarios = scenarioPool
+                    .Where(x => x.Month == month)
+                    .ToList();
+
+                if (monthScenarios.Count == 0)
+                    throw new InvalidOperationException($"No hay escenarios cargados para el mes {month}.");
+
+                selectedScenarios.Add(monthScenarios[Random.Shared.Next(monthScenarios.Count)]);
+            }
+
+            return selectedScenarios;
+        }
+
+        private async Task<Scenario?> GetCurrentScenarioAsync(GameSession gameSession)
+        {
+            var gameSessionScenario = await _context.GameSessionScenarios
+                .Include(x => x.Scenario)
+                .ThenInclude(x => x.Options)
+                .FirstOrDefaultAsync(x =>
+                    x.GameSessionId == gameSession.Id &&
+                    x.Position == gameSession.CurrentScenarioOrder);
+
+            if (gameSessionScenario is not null)
+                return gameSessionScenario.Scenario;
+
+            return await _context.Scenarios
+                .Include(x => x.Options)
+                .FirstOrDefaultAsync(x => x.Order == gameSession.CurrentScenarioOrder);
         }
     }
 }

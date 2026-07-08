@@ -1,527 +1,626 @@
-﻿[
+[
   {
-    "order": 1,
-    "title": "El dólar se dispara",
-    "description": "El tipo de cambio aumenta de golpe y los costos de importación se vuelven inciertos. Tenés que decidir cómo proteger la rentabilidad sin frenar la operación.",
-    "topic": "Contexto económico",
+    "order": 101,
+    "month": 1,
+    "quarter": "Q1",
+    "title": "Enero: presupuesto anual de compras por marca",
+    "description": "La dirección debe definir cuánto capital asignar a cada marca antes de conocer con claridad la demanda del año.",
+    "topic": "Planificación comercial",
     "options": [
-      {
-        "text": "Comprar stock anticipadamente antes de nuevas subas.",
-        "consequence": "Aseguraste mercadería, pero comprometiste mucha liquidez. Si el mercado responde, puede ser una gran jugada.",
-        "rentabilityImpact": -15,
-        "clientsImpact": 10,
-        "organizationalClimateImpact": -5,
-        "brandImageImpact": 5,
-        "operationalEfficiencyImpact": 5
-      },
-      {
-        "text": "Reducir compras y conservar liquidez.",
-        "consequence": "Protegiste la caja, pero corrés riesgo de quedarte sin producto frente a la demanda.",
-        "rentabilityImpact": 10,
-        "clientsImpact": -10,
-        "organizationalClimateImpact": 0,
-        "brandImageImpact": -5,
-        "operationalEfficiencyImpact": -5
-      },
-      {
-        "text": "Negociar con proveedores internacionales mejores plazos.",
-        "consequence": "Ganaste tiempo y protegiste parte de la operación, aunque dependés de la buena voluntad de las marcas.",
-        "rentabilityImpact": 5,
-        "clientsImpact": 5,
-        "organizationalClimateImpact": 0,
-        "brandImageImpact": 5,
-        "operationalEfficiencyImpact": 0
-      }
+      { "text": "Concentrar el presupuesto en marcas líderes.", "consequence": "La empresa fortalece las marcas de mayor rotación, pero reduce margen de prueba para apuestas nuevas.", "rentabilityImpact": 8, "clientsImpact": 6, "organizationalClimateImpact": 0, "brandImageImpact": 8, "operationalEfficiencyImpact": 4 },
+      { "text": "Distribuir presupuesto por desempeño histórico y potencial.", "consequence": "La planificación queda balanceada y defendible, aunque exige mayor seguimiento durante el año.", "rentabilityImpact": 5, "clientsImpact": 7, "organizationalClimateImpact": 4, "brandImageImpact": 5, "operationalEfficiencyImpact": 6 },
+      { "text": "Reservar caja y aprobar compras mes a mes.", "consequence": "La caja queda protegida, pero algunas marcas perciben falta de compromiso temprano.", "rentabilityImpact": 10, "clientsImpact": -6, "organizationalClimateImpact": -2, "brandImageImpact": -8, "operationalEfficiencyImpact": -2 }
     ]
   },
   {
-    "order": 2,
-    "title": "La marca estrella exige abrir un nuevo local",
-    "description": "Una marca internacional clave pide mayor presencia física en Argentina. Abrir un local mejora imagen, pero aumenta costos fijos.",
-    "topic": "Estrategia y expansión",
+    "order": 102,
+    "month": 1,
+    "quarter": "Q1",
+    "title": "Enero: priorizar Skechers y Havaianas sobre marcas menores",
+    "description": "Skechers y Havaianas prometen mayor rotación si reciben prioridad comercial, pero otras marcas pueden perder presencia.",
+    "topic": "Portafolio de marcas",
     "options": [
-      {
-        "text": "Abrir un local propio en un shopping importante.",
-        "consequence": "La marca queda conforme y mejora el posicionamiento, pero los costos fijos suben fuerte.",
-        "rentabilityImpact": -15,
-        "clientsImpact": 10,
-        "organizationalClimateImpact": 0,
-        "brandImageImpact": 20,
-        "operationalEfficiencyImpact": -5
-      },
-      {
-        "text": "Ofrecer un modelo de franquicia para compartir el riesgo.",
-        "consequence": "Reduciste inversión directa y lograste expansión, aunque perdés algo de control sobre la experiencia.",
-        "rentabilityImpact": 5,
-        "clientsImpact": 10,
-        "organizationalClimateImpact": 0,
-        "brandImageImpact": 10,
-        "operationalEfficiencyImpact": 5
-      },
-      {
-        "text": "Rechazar la apertura y priorizar el canal mayorista.",
-        "consequence": "Cuidaste la caja, pero la marca percibe menor compromiso estratégico.",
-        "rentabilityImpact": 10,
-        "clientsImpact": -5,
-        "organizationalClimateImpact": 0,
-        "brandImageImpact": -15,
-        "operationalEfficiencyImpact": 0
-      }
+      { "text": "Priorizar fuerte a Skechers y Havaianas.", "consequence": "La venta probable mejora, pero el portafolio queda más dependiente de pocas marcas.", "rentabilityImpact": 10, "clientsImpact": 8, "organizationalClimateImpact": 0, "brandImageImpact": 10, "operationalEfficiencyImpact": 4 },
+      { "text": "Dar prioridad sin abandonar marcas complementarias.", "consequence": "La empresa refuerza líderes sin romper la diversidad comercial.", "rentabilityImpact": 5, "clientsImpact": 8, "organizationalClimateImpact": 2, "brandImageImpact": 8, "operationalEfficiencyImpact": 5 },
+      { "text": "Mantener reparto parejo entre todas las marcas.", "consequence": "El portafolio queda equilibrado, pero se desaprovecha el empuje de las marcas más fuertes.", "rentabilityImpact": -3, "clientsImpact": -2, "organizationalClimateImpact": 2, "brandImageImpact": -5, "operationalEfficiencyImpact": 0 }
     ]
   },
   {
-    "order": 3,
-    "title": "Error grave en depósito",
-    "description": "En plena temporada alta, varios clientes reciben pedidos con artículos incorrectos. El problema parece estar en la coordinación entre administración y depósito.",
-    "topic": "Estructura organizacional",
+    "order": 103,
+    "month": 1,
+    "quarter": "Q1",
+    "title": "Enero: objetivos comerciales por zona de vendedores",
+    "description": "Los vendedores piden metas claras para el año, pero las zonas tienen potenciales muy distintos.",
+    "topic": "Liderazgo comercial",
     "options": [
-      {
-        "text": "Implementar doble control manual antes de cada despacho.",
-        "consequence": "Bajaron los errores, pero el proceso se volvió más lento y pesado.",
-        "rentabilityImpact": -5,
-        "clientsImpact": 10,
-        "organizationalClimateImpact": -5,
-        "brandImageImpact": 5,
-        "operationalEfficiencyImpact": -10
-      },
-      {
-        "text": "Invertir en un sistema integrado de stock, facturación y despacho.",
-        "consequence": "La inversión fue alta, pero mejoró la eficiencia y redujo errores estructurales.",
-        "rentabilityImpact": -15,
-        "clientsImpact": 15,
-        "organizationalClimateImpact": 5,
-        "brandImageImpact": 10,
-        "operationalEfficiencyImpact": 25
-      },
-      {
-        "text": "Culpar al depósito y exigir mayor velocidad.",
-        "consequence": "La presión aumentó, pero también el malestar interno. El problema de coordinación sigue sin resolverse.",
-        "rentabilityImpact": 0,
-        "clientsImpact": -10,
-        "organizationalClimateImpact": -20,
-        "brandImageImpact": -10,
-        "operationalEfficiencyImpact": -15
-      }
+      { "text": "Fijar metas agresivas iguales para todos.", "consequence": "La dirección transmite ambición, pero algunas zonas quedan presionadas por objetivos poco realistas.", "rentabilityImpact": 4, "clientsImpact": 10, "organizationalClimateImpact": -8, "brandImageImpact": 3, "operationalEfficiencyImpact": -4 },
+      { "text": "Definir metas por zona según historial y potencial.", "consequence": "Los objetivos quedan más justos y mejor aceptados por el equipo comercial.", "rentabilityImpact": 6, "clientsImpact": 9, "organizationalClimateImpact": 9, "brandImageImpact": 4, "operationalEfficiencyImpact": 6 },
+      { "text": "Mantener metas conservadoras para cuidar clima.", "consequence": "El equipo arranca tranquilo, aunque la empresa pierde presión positiva de crecimiento.", "rentabilityImpact": -2, "clientsImpact": -5, "organizationalClimateImpact": 7, "brandImageImpact": -2, "operationalEfficiencyImpact": 2 }
     ]
   },
   {
-    "order": 4,
-    "title": "Los vendedores desconfían del ecommerce",
-    "description": "El canal online crece y algunos vendedores sienten que puede quitarles clientes o comisiones.",
-    "topic": "Cultura y cambio",
+    "order": 104,
+    "month": 1,
+    "quarter": "Q1",
+    "title": "Enero: condiciones de pago para clientes mayoristas",
+    "description": "Varios clientes mayoristas piden revisar plazos de pago para comprometer compras más grandes desde el inicio del año.",
+    "topic": "Clientes mayoristas",
     "options": [
-      {
-        "text": "Imponer el ecommerce como prioridad sin consultar al equipo comercial.",
-        "consequence": "El canal digital avanza rápido, pero aumenta la resistencia interna.",
-        "rentabilityImpact": 10,
-        "clientsImpact": 5,
-        "organizationalClimateImpact": -25,
-        "brandImageImpact": 5,
-        "operationalEfficiencyImpact": 10
-      },
-      {
-        "text": "Integrar a los vendedores al canal digital con objetivos compartidos.",
-        "consequence": "El equipo entiende mejor el cambio y se reduce la resistencia. La transformación es más lenta, pero más sostenible.",
-        "rentabilityImpact": 5,
-        "clientsImpact": 10,
-        "organizationalClimateImpact": 20,
-        "brandImageImpact": 10,
-        "operationalEfficiencyImpact": 10
-      },
-      {
-        "text": "Frenar el ecommerce para evitar conflicto interno.",
-        "consequence": "El clima mejora momentáneamente, pero la empresa pierde una oportunidad estratégica.",
-        "rentabilityImpact": -10,
-        "clientsImpact": -5,
-        "organizationalClimateImpact": 10,
-        "brandImageImpact": -10,
-        "operationalEfficiencyImpact": -10
-      }
+      { "text": "Ampliar plazos a clientes estratégicos.", "consequence": "El volumen comercial crece, pero aumenta el riesgo financiero.", "rentabilityImpact": -8, "clientsImpact": 14, "organizationalClimateImpact": 0, "brandImageImpact": 5, "operationalEfficiencyImpact": -3 },
+      { "text": "Ofrecer plazos según historial de cumplimiento.", "consequence": "La empresa sostiene ventas sin entregar el mismo riesgo a todos los clientes.", "rentabilityImpact": 5, "clientsImpact": 8, "organizationalClimateImpact": 0, "brandImageImpact": 4, "operationalEfficiencyImpact": 5 },
+      { "text": "Mantener condiciones estrictas de pago.", "consequence": "La caja queda protegida, pero algunos clientes reducen pedidos o buscan alternativas.", "rentabilityImpact": 10, "clientsImpact": -10, "organizationalClimateImpact": 0, "brandImageImpact": -5, "operationalEfficiencyImpact": 3 }
     ]
   },
   {
-    "order": 5,
-    "title": "Una nueva marca quiere entrar al portafolio",
-    "description": "Una marca internacional de calzado urbano ofrece representación exclusiva. Puede ser una gran oportunidad, pero exige inversión comercial y stock inicial.",
-    "topic": "Portafolio estratégico",
+    "order": 105,
+    "month": 2,
+    "quarter": "Q1",
+    "title": "Febrero: Diadora Brasil exige mayor volumen de compra",
+    "description": "Diadora ofrece mejores condiciones comerciales, pero exige duplicar el volumen de compra para la temporada.",
+    "topic": "Proveedores internacionales",
     "options": [
-      {
-        "text": "Aceptar la marca e invertir fuerte desde el inicio.",
-        "consequence": "El portafolio crece y la empresa gana potencial, pero la apuesta financiera es riesgosa.",
-        "rentabilityImpact": -15,
-        "clientsImpact": 15,
-        "organizationalClimateImpact": 0,
-        "brandImageImpact": 15,
-        "operationalEfficiencyImpact": -5
-      },
-      {
-        "text": "Negociar una prueba piloto con menor volumen inicial.",
-        "consequence": "La empresa reduce el riesgo y obtiene información real del mercado antes de escalar.",
-        "rentabilityImpact": 5,
-        "clientsImpact": 10,
-        "organizationalClimateImpact": 0,
-        "brandImageImpact": 10,
-        "operationalEfficiencyImpact": 5
-      },
-      {
-        "text": "Rechazar la marca para concentrarse en las actuales.",
-        "consequence": "La empresa mantiene foco, pero puede perder una oportunidad de crecimiento.",
-        "rentabilityImpact": 10,
-        "clientsImpact": -5,
-        "organizationalClimateImpact": 0,
-        "brandImageImpact": -5,
-        "operationalEfficiencyImpact": 5
-      }
+      { "text": "Aceptar el volumen completo.", "consequence": "La relación con Diadora se fortalece, aunque el riesgo de stock aumenta.", "rentabilityImpact": -12, "clientsImpact": 12, "organizationalClimateImpact": 0, "brandImageImpact": 16, "operationalEfficiencyImpact": -5 },
+      { "text": "Negociar compra gradual por etapas.", "consequence": "La empresa conserva la oportunidad sin asumir todo el riesgo de una sola vez.", "rentabilityImpact": 5, "clientsImpact": 9, "organizationalClimateImpact": 0, "brandImageImpact": 10, "operationalEfficiencyImpact": 5 },
+      { "text": "Rechazar el aumento de volumen.", "consequence": "Cuidaste caja, pero Diadora percibe menor compromiso con su desarrollo local.", "rentabilityImpact": 9, "clientsImpact": -5, "organizationalClimateImpact": 0, "brandImageImpact": -10, "operationalEfficiencyImpact": 2 }
     ]
   },
   {
-    "order": 6,
-    "title": "Cae el consumo de calzado",
-    "description": "La situación económica del país reduce las ventas. Los comercios compran menos y piden mejores condiciones de pago.",
-    "topic": "Contexto país",
+    "order": 106,
+    "month": 2,
+    "quarter": "Q1",
+    "title": "Febrero: Comfortflex ofrece exclusividad parcial",
+    "description": "Comfortflex mejora condiciones si Grupo Blanco reduce marcas competidoras en ciertos canales.",
+    "topic": "Gestión de marcas",
     "options": [
-      {
-        "text": "Ofrecer financiación a clientes seleccionados.",
-        "consequence": "Sostuviste ventas y relaciones comerciales, pero asumiste mayor riesgo financiero.",
-        "rentabilityImpact": -10,
-        "clientsImpact": 15,
-        "organizationalClimateImpact": 0,
-        "brandImageImpact": 5,
-        "operationalEfficiencyImpact": 0
-      },
-      {
-        "text": "Bajar precios agresivamente para vender volumen.",
-        "consequence": "Moviste mercadería rápido, pero afectaste la rentabilidad y la percepción de valor.",
-        "rentabilityImpact": -20,
-        "clientsImpact": 20,
-        "organizationalClimateImpact": 0,
-        "brandImageImpact": -10,
-        "operationalEfficiencyImpact": 5
-      },
-      {
-        "text": "Mantener precios y cuidar margen.",
-        "consequence": "La rentabilidad se protege, pero algunos clientes reducen compras.",
-        "rentabilityImpact": 10,
-        "clientsImpact": -15,
-        "organizationalClimateImpact": 0,
-        "brandImageImpact": 0,
-        "operationalEfficiencyImpact": 0
-      }
+      { "text": "Aceptar exclusividad parcial en canales clave.", "consequence": "Comfortflex mejora apoyo comercial, pero el portafolio queda menos flexible.", "rentabilityImpact": 8, "clientsImpact": 4, "organizationalClimateImpact": 0, "brandImageImpact": 11, "operationalEfficiencyImpact": 2 },
+      { "text": "Negociar exclusividad por tiempo limitado.", "consequence": "La empresa prueba el acuerdo sin quedar atada a largo plazo.", "rentabilityImpact": 5, "clientsImpact": 6, "organizationalClimateImpact": 0, "brandImageImpact": 8, "operationalEfficiencyImpact": 5 },
+      { "text": "Rechazar exclusividad para preservar variedad.", "consequence": "Conservaste autonomía, aunque perdiste beneficios comerciales de corto plazo.", "rentabilityImpact": -3, "clientsImpact": 4, "organizationalClimateImpact": 0, "brandImageImpact": -5, "operationalEfficiencyImpact": 3 }
     ]
   },
   {
-    "order": 7,
-    "title": "Un competidor consigue una marca fuerte",
-    "description": "Otro importador anuncia la representación de una marca internacional muy buscada. Puede afectar la posición competitiva de Grupo Blanco.",
+    "order": 107,
+    "month": 2,
+    "quarter": "Q1",
+    "title": "Febrero: Timberland exige estándares visuales en showroom",
+    "description": "Timberland pide renovar la presentación visual del showroom para sostener posicionamiento premium.",
+    "topic": "Showroom y marca",
+    "options": [
+      { "text": "Invertir en renovación completa del espacio.", "consequence": "La imagen premium mejora, pero la inversión impacta la rentabilidad de corto plazo.", "rentabilityImpact": -10, "clientsImpact": 5, "organizationalClimateImpact": 2, "brandImageImpact": 18, "operationalEfficiencyImpact": -2 },
+      { "text": "Actualizar sólo sectores prioritarios.", "consequence": "La marca percibe avance y la empresa controla el gasto.", "rentabilityImpact": 2, "clientsImpact": 4, "organizationalClimateImpact": 2, "brandImageImpact": 10, "operationalEfficiencyImpact": 3 },
+      { "text": "Postergar la renovación hasta mitad de año.", "consequence": "Cuidaste caja, pero Timberland cuestiona el nivel de compromiso.", "rentabilityImpact": 8, "clientsImpact": -3, "organizationalClimateImpact": 0, "brandImageImpact": -10, "operationalEfficiencyImpact": 0 }
+    ]
+  },
+  {
+    "order": 108,
+    "month": 2,
+    "quarter": "Q1",
+    "title": "Febrero: Hey Dude solicita mayor presencia digital",
+    "description": "Hey Dude quiere más inversión en ecommerce, contenido y publicaciones para crecer en Argentina.",
+    "topic": "Presencia digital",
+    "options": [
+      { "text": "Lanzar plan digital fuerte para Hey Dude.", "consequence": "La marca gana visibilidad online, aunque exige presupuesto y coordinación.", "rentabilityImpact": -8, "clientsImpact": 8, "organizationalClimateImpact": 2, "brandImageImpact": 14, "operationalEfficiencyImpact": -2 },
+      { "text": "Probar campaña digital con presupuesto controlado.", "consequence": "La empresa valida respuesta del mercado sin comprometer demasiados recursos.", "rentabilityImpact": 3, "clientsImpact": 6, "organizationalClimateImpact": 0, "brandImageImpact": 8, "operationalEfficiencyImpact": 4 },
+      { "text": "Mantener la presencia digital actual.", "consequence": "Cuidaste costos, pero la marca queda con menor impulso frente a competidores.", "rentabilityImpact": 6, "clientsImpact": -4, "organizationalClimateImpact": 0, "brandImageImpact": -7, "operationalEfficiencyImpact": 1 }
+    ]
+  },
+  {
+    "order": 109,
+    "month": 3,
+    "quarter": "Q1",
+    "title": "Marzo: suba brusca del dólar antes de cerrar pedidos",
+    "description": "El dólar aumenta justo antes de confirmar pedidos internacionales importantes.",
+    "topic": "Dólar e importaciones",
+    "options": [
+      { "text": "Confirmar pedidos completos antes de otra suba.", "consequence": "Aseguraste mercadería, pero compraste caro y presionaste margen.", "rentabilityImpact": -15, "clientsImpact": 14, "organizationalClimateImpact": -3, "brandImageImpact": 8, "operationalEfficiencyImpact": 3 },
+      { "text": "Reducir pedidos y priorizar modelos líderes.", "consequence": "Protegiste caja y foco comercial, aunque habrá menor variedad.", "rentabilityImpact": 10, "clientsImpact": -7, "organizationalClimateImpact": 0, "brandImageImpact": -4, "operationalEfficiencyImpact": 5 },
+      { "text": "Negociar plazos con marcas y clientes.", "consequence": "Repartiste el impacto de la suba y evitaste una decisión extrema.", "rentabilityImpact": 5, "clientsImpact": 5, "organizationalClimateImpact": 1, "brandImageImpact": 5, "operationalEfficiencyImpact": 2 }
+    ]
+  },
+  {
+    "order": 110,
+    "month": 3,
+    "quarter": "Q1",
+    "title": "Marzo: demoras en liberación de contenedores",
+    "description": "Los contenedores con mercadería clave quedan demorados en el proceso de liberación.",
+    "topic": "Comercio exterior",
+    "options": [
+      { "text": "Pagar gestión urgente para destrabar contenedores.", "consequence": "La mercadería llega antes, pero el costo extra afecta rentabilidad.", "rentabilityImpact": -10, "clientsImpact": 10, "organizationalClimateImpact": 0, "brandImageImpact": 5, "operationalEfficiencyImpact": 10 },
+      { "text": "Reprogramar entregas y priorizar clientes clave.", "consequence": "La empresa ordena la demora y reduce reclamos, aunque no evita todos los impactos.", "rentabilityImpact": 2, "clientsImpact": 5, "organizationalClimateImpact": 0, "brandImageImpact": 2, "operationalEfficiencyImpact": 6 },
+      { "text": "Esperar liberación normal sin costos extra.", "consequence": "Cuidaste caja, pero aumentaron demoras y tensión comercial.", "rentabilityImpact": 7, "clientsImpact": -12, "organizationalClimateImpact": -5, "brandImageImpact": -8, "operationalEfficiencyImpact": -8 }
+    ]
+  },
+  {
+    "order": 111,
+    "month": 3,
+    "quarter": "Q1",
+    "title": "Marzo: aumento de costos logísticos internacionales",
+    "description": "El costo de flete internacional sube y obliga a revisar precios, márgenes y fechas de entrega.",
+    "topic": "Costos logísticos",
+    "options": [
+      { "text": "Trasladar el aumento completo a precios.", "consequence": "Protegiste margen, pero algunos clientes frenan pedidos.", "rentabilityImpact": 10, "clientsImpact": -10, "organizationalClimateImpact": 0, "brandImageImpact": -4, "operationalEfficiencyImpact": 2 },
+      { "text": "Absorber parte del aumento y ajustar gradualmente.", "consequence": "Sostuviste relación comercial con una pérdida controlada de margen.", "rentabilityImpact": -4, "clientsImpact": 8, "organizationalClimateImpact": 0, "brandImageImpact": 5, "operationalEfficiencyImpact": 3 },
+      { "text": "Revisar mix de productos para reducir volumen importado.", "consequence": "Bajaste exposición logística, aunque la oferta pierde variedad.", "rentabilityImpact": 5, "clientsImpact": -5, "organizationalClimateImpact": 0, "brandImageImpact": -3, "operationalEfficiencyImpact": 7 }
+    ]
+  },
+  {
+    "order": 112,
+    "month": 3,
+    "quarter": "Q1",
+    "title": "Marzo: cambios regulatorios complican el ingreso de mercadería",
+    "description": "Nuevos requisitos administrativos retrasan documentación e ingreso de productos importados.",
+    "topic": "Regulación",
+    "options": [
+      { "text": "Contratar asesoría externa especializada.", "consequence": "Reduciste riesgo regulatorio, pero sumaste un costo no previsto.", "rentabilityImpact": -6, "clientsImpact": 5, "organizationalClimateImpact": 2, "brandImageImpact": 4, "operationalEfficiencyImpact": 10 },
+      { "text": "Capacitar al equipo interno y ajustar procesos.", "consequence": "La empresa gana aprendizaje propio, aunque el ajuste demanda tiempo.", "rentabilityImpact": 2, "clientsImpact": 2, "organizationalClimateImpact": 6, "brandImageImpact": 3, "operationalEfficiencyImpact": 7 },
+      { "text": "Mantener proceso actual y responder a observaciones.", "consequence": "Evitaste costos inmediatos, pero aumentó el riesgo de demoras repetidas.", "rentabilityImpact": 5, "clientsImpact": -8, "organizationalClimateImpact": -4, "brandImageImpact": -5, "operationalEfficiencyImpact": -8 }
+    ]
+  },
+  {
+    "order": 113,
+    "month": 4,
+    "quarter": "Q2",
+    "title": "Abril: clientes minoristas piden financiación a 60/90 días",
+    "description": "Los comercios minoristas piden plazos más largos para sostener compras de temporada.",
+    "topic": "Preventa mayorista",
+    "options": [
+      { "text": "Ofrecer financiación amplia para empujar volumen.", "consequence": "Los pedidos crecen, pero la empresa queda más expuesta en cobranza.", "rentabilityImpact": -10, "clientsImpact": 15, "organizationalClimateImpact": 0, "brandImageImpact": 5, "operationalEfficiencyImpact": -4 },
+      { "text": "Dar financiación según historial y cupo.", "consequence": "La relación comercial mejora sin perder control del riesgo.", "rentabilityImpact": 4, "clientsImpact": 9, "organizationalClimateImpact": 0, "brandImageImpact": 4, "operationalEfficiencyImpact": 5 },
+      { "text": "Mantener plazos cortos para cuidar caja.", "consequence": "La caja queda ordenada, pero algunos minoristas reducen compra.", "rentabilityImpact": 9, "clientsImpact": -9, "organizationalClimateImpact": 0, "brandImageImpact": -4, "operationalEfficiencyImpact": 3 }
+    ]
+  },
+  {
+    "order": 114,
+    "month": 4,
+    "quarter": "Q2",
+    "title": "Abril: faltan talles en módulos cerrados del interior",
+    "description": "Comercios del interior reclaman que los módulos cerrados no responden a su demanda real de talles.",
+    "topic": "Clientes del interior",
+    "options": [
+      { "text": "Flexibilizar módulos por zona.", "consequence": "Los clientes perciben mejor adaptación, aunque la operación se vuelve más compleja.", "rentabilityImpact": 2, "clientsImpact": 13, "organizationalClimateImpact": 0, "brandImageImpact": 7, "operationalEfficiencyImpact": -7 },
+      { "text": "Crear módulos regionales con datos de ventas.", "consequence": "La empresa mejora la propuesta comercial con control operativo razonable.", "rentabilityImpact": 5, "clientsImpact": 10, "organizationalClimateImpact": 2, "brandImageImpact": 6, "operationalEfficiencyImpact": 5 },
+      { "text": "Mantener módulos cerrados estándar.", "consequence": "La operación sigue simple, pero los reclamos del interior aumentan.", "rentabilityImpact": 5, "clientsImpact": -12, "organizationalClimateImpact": -2, "brandImageImpact": -6, "operationalEfficiencyImpact": 8 }
+    ]
+  },
+  {
+    "order": 115,
+    "month": 4,
+    "quarter": "Q2",
+    "title": "Abril: cliente histórico amenaza con cambiar de importador",
+    "description": "Un cliente de muchos años dice que otro importador le ofrece mejores condiciones y entrega más rápida.",
+    "topic": "Relación comercial",
+    "options": [
+      { "text": "Igualar condiciones para retenerlo.", "consequence": "Retuviste al cliente, pero cediste margen y abriste precedente.", "rentabilityImpact": -8, "clientsImpact": 12, "organizationalClimateImpact": 0, "brandImageImpact": 5, "operationalEfficiencyImpact": -2 },
+      { "text": "Negociar beneficios atados a volumen y cumplimiento.", "consequence": "La relación se sostiene con reglas más sanas para ambas partes.", "rentabilityImpact": 4, "clientsImpact": 8, "organizationalClimateImpact": 0, "brandImageImpact": 5, "operationalEfficiencyImpact": 4 },
+      { "text": "No modificar condiciones comerciales.", "consequence": "Protegiste margen, pero el cliente reduce su compromiso con Grupo Blanco.", "rentabilityImpact": 8, "clientsImpact": -12, "organizationalClimateImpact": 0, "brandImageImpact": -5, "operationalEfficiencyImpact": 2 }
+    ]
+  },
+  {
+    "order": 116,
+    "month": 4,
+    "quarter": "Q2",
+    "title": "Abril: vendedores piden mejores herramientas para tomar pedidos",
+    "description": "El equipo comercial reclama herramientas más ágiles para mostrar stock, talles y condiciones en visitas a clientes.",
+    "topic": "Herramientas comerciales",
+    "options": [
+      { "text": "Implementar una herramienta digital completa.", "consequence": "El equipo gana velocidad y calidad de información, pero requiere inversión y capacitación.", "rentabilityImpact": -8, "clientsImpact": 8, "organizationalClimateImpact": 8, "brandImageImpact": 5, "operationalEfficiencyImpact": 14 },
+      { "text": "Mejorar planillas y reportes existentes.", "consequence": "La mejora es más rápida y barata, aunque no resuelve todo el problema.", "rentabilityImpact": 3, "clientsImpact": 5, "organizationalClimateImpact": 4, "brandImageImpact": 2, "operationalEfficiencyImpact": 6 },
+      { "text": "Postergar la inversión hasta temporada alta.", "consequence": "Cuidaste presupuesto, pero el equipo sigue perdiendo oportunidades por falta de información.", "rentabilityImpact": 6, "clientsImpact": -8, "organizationalClimateImpact": -7, "brandImageImpact": -3, "operationalEfficiencyImpact": -6 }
+    ]
+  },
+  {
+    "order": 117,
+    "month": 5,
+    "quarter": "Q2",
+    "title": "Mayo: depósito de Rosario saturado por llegada simultánea",
+    "description": "Llegan varias marcas al mismo tiempo y el depósito comienza a acumular pedidos pendientes.",
+    "topic": "Depósito y logística",
+    "options": [
+      { "text": "Sumar turnos temporales en depósito.", "consequence": "La salida de pedidos mejora, aunque suben costos y coordinación interna.", "rentabilityImpact": -8, "clientsImpact": 10, "organizationalClimateImpact": -3, "brandImageImpact": 4, "operationalEfficiencyImpact": 13 },
+      { "text": "Priorizar despachos por criticidad comercial.", "consequence": "Los clientes clave reciben antes, pero algunos pedidos menores quedan demorados.", "rentabilityImpact": 4, "clientsImpact": 6, "organizationalClimateImpact": 0, "brandImageImpact": 3, "operationalEfficiencyImpact": 8 },
+      { "text": "Mantener operación normal hasta absorber el pico.", "consequence": "Evitaste costos extra, pero aumentaron demoras y reclamos.", "rentabilityImpact": 8, "clientsImpact": -12, "organizationalClimateImpact": -8, "brandImageImpact": -7, "operationalEfficiencyImpact": -12 }
+    ]
+  },
+  {
+    "order": 118,
+    "month": 5,
+    "quarter": "Q2",
+    "title": "Mayo: errores de despacho generan reclamos",
+    "description": "Clientes reciben talles o modelos incorrectos y el equipo comercial pide una solución urgente.",
+    "topic": "Calidad operativa",
+    "options": [
+      { "text": "Implementar doble control antes de cada despacho.", "consequence": "Los errores bajan, pero el proceso se vuelve más lento.", "rentabilityImpact": -4, "clientsImpact": 10, "organizationalClimateImpact": -2, "brandImageImpact": 7, "operationalEfficiencyImpact": -4 },
+      { "text": "Auditar sólo pedidos críticos y ajustar causas frecuentes.", "consequence": "La empresa reduce errores relevantes sin frenar toda la operación.", "rentabilityImpact": 3, "clientsImpact": 7, "organizationalClimateImpact": 1, "brandImageImpact": 5, "operationalEfficiencyImpact": 6 },
+      { "text": "Resolver reclamos caso por caso.", "consequence": "Evitaste cambiar procesos, pero la causa del problema sigue activa.", "rentabilityImpact": 4, "clientsImpact": -8, "organizationalClimateImpact": -5, "brandImageImpact": -7, "operationalEfficiencyImpact": -8 }
+    ]
+  },
+  {
+    "order": 119,
+    "month": 5,
+    "quarter": "Q2",
+    "title": "Mayo: transporte al interior aumenta tarifas",
+    "description": "Los operadores logísticos suben tarifas para envíos al interior y amenazan con afectar margen o precio final.",
+    "topic": "Distribución interior",
+    "options": [
+      { "text": "Absorber parte del aumento para sostener clientes.", "consequence": "La relación comercial se mantiene, pero baja el margen por operación.", "rentabilityImpact": -8, "clientsImpact": 10, "organizationalClimateImpact": 0, "brandImageImpact": 5, "operationalEfficiencyImpact": 2 },
+      { "text": "Negociar tarifas por volumen y agrupar envíos.", "consequence": "La empresa mejora eficiencia logística sin trasladar todo el costo.", "rentabilityImpact": 5, "clientsImpact": 5, "organizationalClimateImpact": 0, "brandImageImpact": 3, "operationalEfficiencyImpact": 9 },
+      { "text": "Trasladar todo el aumento al cliente.", "consequence": "Protegiste margen, pero algunos comercios reducen pedidos.", "rentabilityImpact": 10, "clientsImpact": -9, "organizationalClimateImpact": 0, "brandImageImpact": -4, "operationalEfficiencyImpact": 1 }
+    ]
+  },
+  {
+    "order": 120,
+    "month": 5,
+    "quarter": "Q2",
+    "title": "Mayo: entregas propias en CABA sobrecargadas",
+    "description": "El equipo de entregas propias en CABA no alcanza a cumplir todos los pedidos comprometidos.",
+    "topic": "Logística urbana",
+    "options": [
+      { "text": "Contratar refuerzo externo para CABA.", "consequence": "Las entregas se normalizan, aunque el costo por pedido aumenta.", "rentabilityImpact": -7, "clientsImpact": 9, "organizationalClimateImpact": 2, "brandImageImpact": 5, "operationalEfficiencyImpact": 10 },
+      { "text": "Rediseñar rutas y ventanas de entrega.", "consequence": "La operación mejora con recursos actuales, pero exige coordinación fina.", "rentabilityImpact": 4, "clientsImpact": 6, "organizationalClimateImpact": 1, "brandImageImpact": 3, "operationalEfficiencyImpact": 9 },
+      { "text": "Extender plazos de entrega comunicándolo a clientes.", "consequence": "Evitaste costos extra, pero la promesa de servicio pierde fuerza.", "rentabilityImpact": 7, "clientsImpact": -8, "organizationalClimateImpact": -2, "brandImageImpact": -6, "operationalEfficiencyImpact": -2 }
+    ]
+  },
+  {
+    "order": 121,
+    "month": 6,
+    "quarter": "Q2",
+    "title": "Junio: Mercado Libre supera ventas mayoristas de Via Marte",
+    "description": "El canal digital crece con fuerza y algunos mayoristas sienten que compiten contra Grupo Blanco.",
+    "topic": "Ecommerce y canales",
+    "options": [
+      { "text": "Priorizar Mercado Libre para capturar venta directa.", "consequence": "El canal online crece rápido, pero la relación mayorista se tensiona.", "rentabilityImpact": 14, "clientsImpact": -14, "organizationalClimateImpact": -2, "brandImageImpact": 8, "operationalEfficiencyImpact": 4 },
+      { "text": "Equilibrar precios y stock entre canales.", "consequence": "La empresa evita conflicto y sostiene una estrategia comercial más estable.", "rentabilityImpact": 5, "clientsImpact": 12, "organizationalClimateImpact": 3, "brandImageImpact": 8, "operationalEfficiencyImpact": 5 },
+      { "text": "Limitar el canal online para proteger mayoristas.", "consequence": "Los mayoristas valoran la decisión, pero se pierde crecimiento digital.", "rentabilityImpact": -8, "clientsImpact": 8, "organizationalClimateImpact": 2, "brandImageImpact": -4, "operationalEfficiencyImpact": -4 }
+    ]
+  },
+  {
+    "order": 122,
+    "month": 6,
+    "quarter": "Q2",
+    "title": "Junio: ecommerce de Havaianas sin stock clave",
+    "description": "Modelos fuertes de Havaianas se agotan online mientras otros canales todavía tienen unidades disponibles.",
+    "topic": "Stock digital",
+    "options": [
+      { "text": "Redirigir stock desde mayoristas al ecommerce.", "consequence": "El canal digital recupera venta, pero algunos mayoristas reciben menos variedad.", "rentabilityImpact": 8, "clientsImpact": -6, "organizationalClimateImpact": -2, "brandImageImpact": 8, "operationalEfficiencyImpact": 2 },
+      { "text": "Reasignar stock por demanda y compromisos previos.", "consequence": "La empresa balancea el faltante sin romper acuerdos comerciales importantes.", "rentabilityImpact": 4, "clientsImpact": 7, "organizationalClimateImpact": 1, "brandImageImpact": 6, "operationalEfficiencyImpact": 6 },
+      { "text": "Mantener stock asignado y pausar publicaciones agotadas.", "consequence": "Respetaste la planificación, pero el ecommerce perdió ventas y visibilidad.", "rentabilityImpact": -5, "clientsImpact": -5, "organizationalClimateImpact": 0, "brandImageImpact": -7, "operationalEfficiencyImpact": 3 }
+    ]
+  },
+  {
+    "order": 123,
+    "month": 6,
+    "quarter": "Q2",
+    "title": "Junio: Skechers pide mejorar experiencia online",
+    "description": "Skechers detecta baja calidad en fichas, fotos y respuestas al cliente en el canal online.",
+    "topic": "Experiencia online",
+    "options": [
+      { "text": "Invertir en contenido, fotos y atención dedicada.", "consequence": "La experiencia mejora y la marca gana confianza, aunque suben costos.", "rentabilityImpact": -8, "clientsImpact": 10, "organizationalClimateImpact": 4, "brandImageImpact": 14, "operationalEfficiencyImpact": 3 },
+      { "text": "Mejorar fichas y respuestas con el equipo actual.", "consequence": "La calidad sube de forma gradual sin agrandar estructura.", "rentabilityImpact": 3, "clientsImpact": 6, "organizationalClimateImpact": 2, "brandImageImpact": 8, "operationalEfficiencyImpact": 5 },
+      { "text": "Postergar mejoras hasta temporada alta.", "consequence": "Cuidaste recursos, pero la marca percibe falta de prioridad digital.", "rentabilityImpact": 6, "clientsImpact": -5, "organizationalClimateImpact": 0, "brandImageImpact": -8, "operationalEfficiencyImpact": 0 }
+    ]
+  },
+  {
+    "order": 124,
+    "month": 6,
+    "quarter": "Q2",
+    "title": "Junio: cambios en publicaciones reducen visibilidad",
+    "description": "Cambios en criterios de publicación reducen la exposición de productos clave en plataformas digitales.",
+    "topic": "Marketplace",
+    "options": [
+      { "text": "Invertir en pauta para recuperar visibilidad.", "consequence": "Las publicaciones vuelven a moverse, pero aumenta el costo de adquisición.", "rentabilityImpact": -8, "clientsImpact": 8, "organizationalClimateImpact": 0, "brandImageImpact": 8, "operationalEfficiencyImpact": 2 },
+      { "text": "Optimizar publicaciones y priorizar productos líderes.", "consequence": "La visibilidad mejora con inversión controlada y foco comercial.", "rentabilityImpact": 4, "clientsImpact": 7, "organizationalClimateImpact": 0, "brandImageImpact": 6, "operationalEfficiencyImpact": 6 },
+      { "text": "Esperar recuperación orgánica sin invertir.", "consequence": "Cuidaste presupuesto, pero las ventas digitales siguen débiles.", "rentabilityImpact": 6, "clientsImpact": -7, "organizationalClimateImpact": 0, "brandImageImpact": -5, "operationalEfficiencyImpact": -2 }
+    ]
+  },
+  {
+    "order": 125,
+    "month": 7,
+    "quarter": "Q3",
+    "title": "Julio: Havaianas exige nuevo local en shopping",
+    "description": "Havaianas solicita un punto de venta físico para aumentar visibilidad en una zona estratégica.",
+    "topic": "Retail",
+    "options": [
+      { "text": "Abrir local propio en shopping.", "consequence": "La marca gana presencia, pero los costos fijos presionan rentabilidad.", "rentabilityImpact": -15, "clientsImpact": 8, "organizationalClimateImpact": 0, "brandImageImpact": 20, "operationalEfficiencyImpact": -4 },
+      { "text": "Proponer franquicia con inversión compartida.", "consequence": "La expansión avanza con menor riesgo directo para Grupo Blanco.", "rentabilityImpact": 4, "clientsImpact": 8, "organizationalClimateImpact": 0, "brandImageImpact": 14, "operationalEfficiencyImpact": 4 },
+      { "text": "Reforzar showroom y ecommerce en lugar de abrir local.", "consequence": "Cuidaste estructura, aunque la marca percibe menor compromiso físico.", "rentabilityImpact": 8, "clientsImpact": -4, "organizationalClimateImpact": 0, "brandImageImpact": -8, "operationalEfficiencyImpact": 6 }
+    ]
+  },
+  {
+    "order": 126,
+    "month": 7,
+    "quarter": "Q3",
+    "title": "Julio: franquiciado pide mejores condiciones",
+    "description": "Un franquiciado relevante reclama mejores precios y apoyo promocional para sostener ventas.",
+    "topic": "Franquicias",
+    "options": [
+      { "text": "Conceder mejoras amplias para retenerlo.", "consequence": "El franquiciado se compromete a crecer, pero el margen queda afectado.", "rentabilityImpact": -8, "clientsImpact": 8, "organizationalClimateImpact": 0, "brandImageImpact": 6, "operationalEfficiencyImpact": -2 },
+      { "text": "Ofrecer beneficios atados a objetivos.", "consequence": "La relación mejora con compromisos claros de desempeño.", "rentabilityImpact": 4, "clientsImpact": 6, "organizationalClimateImpact": 1, "brandImageImpact": 5, "operationalEfficiencyImpact": 4 },
+      { "text": "Mantener condiciones actuales.", "consequence": "Protegiste margen, pero el franquiciado reduce inversión local.", "rentabilityImpact": 8, "clientsImpact": -7, "organizationalClimateImpact": -1, "brandImageImpact": -6, "operationalEfficiencyImpact": 1 }
+    ]
+  },
+  {
+    "order": 127,
+    "month": 7,
+    "quarter": "Q3",
+    "title": "Julio: showroom Buenos Aires necesita renovación",
+    "description": "El showroom de Buenos Aires quedó desactualizado frente a la imagen que esperan marcas y clientes.",
+    "topic": "Showrooms",
+    "options": [
+      { "text": "Renovar integralmente el showroom.", "consequence": "La experiencia comercial mejora, pero el gasto es alto.", "rentabilityImpact": -10, "clientsImpact": 8, "organizationalClimateImpact": 3, "brandImageImpact": 16, "operationalEfficiencyImpact": -2 },
+      { "text": "Renovar por sectores de mayor impacto.", "consequence": "La empresa mejora imagen con una inversión más controlada.", "rentabilityImpact": 2, "clientsImpact": 6, "organizationalClimateImpact": 2, "brandImageImpact": 10, "operationalEfficiencyImpact": 3 },
+      { "text": "Postergar renovación y reforzar atención comercial.", "consequence": "Cuidaste caja, pero la imagen física sigue perdiendo fuerza.", "rentabilityImpact": 6, "clientsImpact": -3, "organizationalClimateImpact": 1, "brandImageImpact": -8, "operationalEfficiencyImpact": 0 }
+    ]
+  },
+  {
+    "order": 128,
+    "month": 7,
+    "quarter": "Q3",
+    "title": "Julio: showroom Rosario recibe menos visitas",
+    "description": "El showroom Rosario baja tráfico de clientes y los vendedores advierten menor actividad presencial.",
+    "topic": "Showroom regional",
+    "options": [
+      { "text": "Lanzar agenda de visitas y eventos comerciales.", "consequence": "El showroom recupera movimiento, aunque exige coordinación e inversión.", "rentabilityImpact": -5, "clientsImpact": 10, "organizationalClimateImpact": 4, "brandImageImpact": 8, "operationalEfficiencyImpact": 1 },
+      { "text": "Combinar visitas presenciales con atención digital.", "consequence": "La empresa aumenta cobertura sin depender sólo del tráfico físico.", "rentabilityImpact": 3, "clientsImpact": 7, "organizationalClimateImpact": 2, "brandImageImpact": 5, "operationalEfficiencyImpact": 6 },
+      { "text": "Reducir actividad del showroom temporalmente.", "consequence": "Bajaste costos, pero la presencia regional pierde fuerza.", "rentabilityImpact": 7, "clientsImpact": -8, "organizationalClimateImpact": -3, "brandImageImpact": -7, "operationalEfficiencyImpact": 2 }
+    ]
+  },
+  {
+    "order": 129,
+    "month": 8,
+    "quarter": "Q3",
+    "title": "Agosto: empleados reclaman actualización salarial",
+    "description": "Administración, ventas y depósito piden recomposición salarial por inflación.",
+    "topic": "Clima interno",
+    "options": [
+      { "text": "Otorgar ajuste general inmediato.", "consequence": "El clima mejora, pero suben costos en un momento sensible.", "rentabilityImpact": -14, "clientsImpact": 0, "organizationalClimateImpact": 22, "brandImageImpact": 4, "operationalEfficiencyImpact": 4 },
+      { "text": "Aplicar bonos por objetivos y desempeño.", "consequence": "La empresa reconoce esfuerzo cuidando costos, aunque no todos quedan conformes.", "rentabilityImpact": -4, "clientsImpact": 4, "organizationalClimateImpact": 10, "brandImageImpact": 2, "operationalEfficiencyImpact": 8 },
+      { "text": "Postergar la discusión salarial.", "consequence": "Cuidaste caja, pero el malestar interno afecta motivación.", "rentabilityImpact": 10, "clientsImpact": 0, "organizationalClimateImpact": -22, "brandImageImpact": -4, "operationalEfficiencyImpact": -8 }
+    ]
+  },
+  {
+    "order": 130,
+    "month": 8,
+    "quarter": "Q3",
+    "title": "Agosto: gerente de marca recibe oferta de la competencia",
+    "description": "Un gerente clave con relación directa con proveedores podría irse a otro importador.",
+    "topic": "Talento",
+    "options": [
+      { "text": "Ofrecer mejora salarial y más autonomía.", "consequence": "Retuviste talento crítico, aunque suben costos y expectativas internas.", "rentabilityImpact": -10, "clientsImpact": 8, "organizationalClimateImpact": 12, "brandImageImpact": 6, "operationalEfficiencyImpact": 8 },
+      { "text": "Crear plan de sucesión y transición.", "consequence": "Reduciste dependencia de una sola persona y fortaleciste estructura.", "rentabilityImpact": -4, "clientsImpact": 4, "organizationalClimateImpact": 8, "brandImageImpact": 4, "operationalEfficiencyImpact": 12 },
+      { "text": "Aceptar su salida y redistribuir tareas.", "consequence": "Cuidaste costos inmediatos, pero se perdió conocimiento clave.", "rentabilityImpact": 6, "clientsImpact": -12, "organizationalClimateImpact": -14, "brandImageImpact": -6, "operationalEfficiencyImpact": -10 }
+    ]
+  },
+  {
+    "order": 131,
+    "month": 8,
+    "quarter": "Q3",
+    "title": "Agosto: vendedores cuestionan comisiones por ventas online",
+    "description": "El equipo comercial reclama que el ecommerce se queda con ventas originadas por relaciones que ellos sostienen.",
+    "topic": "Comisiones",
+    "options": [
+      { "text": "Reconocer comisión parcial por clientes identificados.", "consequence": "El equipo percibe justicia comercial, pero sube el costo de ventas.", "rentabilityImpact": -6, "clientsImpact": 6, "organizationalClimateImpact": 12, "brandImageImpact": 2, "operationalEfficiencyImpact": 1 },
+      { "text": "Crear reglas por canal y origen del cliente.", "consequence": "La empresa ordena incentivos y reduce conflictos entre áreas.", "rentabilityImpact": 3, "clientsImpact": 5, "organizationalClimateImpact": 8, "brandImageImpact": 3, "operationalEfficiencyImpact": 6 },
+      { "text": "Mantener esquema actual de comisiones.", "consequence": "Evitaste cambios administrativos, pero crece la tensión con ventas.", "rentabilityImpact": 7, "clientsImpact": -3, "organizationalClimateImpact": -12, "brandImageImpact": -2, "operationalEfficiencyImpact": -3 }
+    ]
+  },
+  {
+    "order": 132,
+    "month": 8,
+    "quarter": "Q3",
+    "title": "Agosto: depósito pide refuerzo antes de temporada",
+    "description": "El equipo de depósito anticipa que no podrá responder al volumen de temporada alta.",
+    "topic": "Capacidad operativa",
+    "options": [
+      { "text": "Contratar refuerzos temporales de inmediato.", "consequence": "El depósito gana capacidad, aunque los costos suben antes del pico.", "rentabilityImpact": -8, "clientsImpact": 7, "organizationalClimateImpact": 8, "brandImageImpact": 3, "operationalEfficiencyImpact": 14 },
+      { "text": "Capacitar personal interno y sumar refuerzo parcial.", "consequence": "La empresa mejora preparación sin sobredimensionar estructura.", "rentabilityImpact": 2, "clientsImpact": 5, "organizationalClimateImpact": 7, "brandImageImpact": 2, "operationalEfficiencyImpact": 9 },
+      { "text": "Esperar a confirmar demanda real.", "consequence": "Cuidaste costos, pero el depósito queda expuesto al pico de pedidos.", "rentabilityImpact": 7, "clientsImpact": -6, "organizationalClimateImpact": -10, "brandImageImpact": -3, "operationalEfficiencyImpact": -9 }
+    ]
+  },
+  {
+    "order": 133,
+    "month": 9,
+    "quarter": "Q3",
+    "title": "Septiembre: Havaianas propone campaña nacional",
+    "description": "La marca propone una campaña fuerte para Argentina con inversión compartida y coordinación multicanal.",
+    "topic": "Marketing",
+    "options": [
+      { "text": "Aceptar campaña nacional completa.", "consequence": "La marca gana visibilidad fuerte, pero la inversión afecta rentabilidad.", "rentabilityImpact": -14, "clientsImpact": 12, "organizationalClimateImpact": 4, "brandImageImpact": 24, "operationalEfficiencyImpact": -4 },
+      { "text": "Hacer campaña regional en plazas clave.", "consequence": "Logras impacto visible con menor riesgo y mejor control de stock.", "rentabilityImpact": -4, "clientsImpact": 8, "organizationalClimateImpact": 2, "brandImageImpact": 14, "operationalEfficiencyImpact": 4 },
+      { "text": "Rechazar campaña para cuidar presupuesto.", "consequence": "Protegiste caja, pero Havaianas pierde impulso frente a competidores.", "rentabilityImpact": 10, "clientsImpact": -6, "organizationalClimateImpact": 0, "brandImageImpact": -14, "operationalEfficiencyImpact": 2 }
+    ]
+  },
+  {
+    "order": 134,
+    "month": 9,
+    "quarter": "Q3",
+    "title": "Septiembre: Timberland pide posicionamiento premium",
+    "description": "Timberland quiere una campaña que refuerce valor premium y diferencie la marca en el portafolio.",
+    "topic": "Posicionamiento",
+    "options": [
+      { "text": "Invertir en campaña premium con contenido propio.", "consequence": "La marca gana aspiracionalidad, aunque requiere presupuesto relevante.", "rentabilityImpact": -10, "clientsImpact": 6, "organizationalClimateImpact": 2, "brandImageImpact": 18, "operationalEfficiencyImpact": -2 },
+      { "text": "Activar campaña selectiva con clientes clave.", "consequence": "El posicionamiento mejora donde más importa comercialmente.", "rentabilityImpact": 2, "clientsImpact": 7, "organizationalClimateImpact": 1, "brandImageImpact": 11, "operationalEfficiencyImpact": 3 },
+      { "text": "Mantener comunicación actual sin campaña específica.", "consequence": "Cuidaste gastos, pero Timberland queda poco diferenciada.", "rentabilityImpact": 6, "clientsImpact": -4, "organizationalClimateImpact": 0, "brandImageImpact": -9, "operationalEfficiencyImpact": 1 }
+    ]
+  },
+  {
+    "order": 135,
+    "month": 9,
+    "quarter": "Q3",
+    "title": "Septiembre: Diadora quiere activar lanzamiento deportivo",
+    "description": "Diadora pide una activación deportiva para presentar una línea nueva y ganar conversación comercial.",
+    "topic": "Lanzamiento de marca",
+    "options": [
+      { "text": "Hacer lanzamiento fuerte con evento y pauta.", "consequence": "Diadora gana visibilidad, pero la inversión presiona resultados.", "rentabilityImpact": -10, "clientsImpact": 9, "organizationalClimateImpact": 3, "brandImageImpact": 17, "operationalEfficiencyImpact": -2 },
+      { "text": "Activar lanzamiento con preventa a clientes seleccionados.", "consequence": "La marca se prueba con menor riesgo y aprendizaje comercial.", "rentabilityImpact": 3, "clientsImpact": 8, "organizationalClimateImpact": 1, "brandImageImpact": 10, "operationalEfficiencyImpact": 4 },
+      { "text": "Postergar lanzamiento hasta tener más stock.", "consequence": "Evitaste prometer sin disponibilidad, pero se pierde momento de marca.", "rentabilityImpact": 5, "clientsImpact": -5, "organizationalClimateImpact": 0, "brandImageImpact": -8, "operationalEfficiencyImpact": 3 }
+    ]
+  },
+  {
+    "order": 136,
+    "month": 9,
+    "quarter": "Q3",
+    "title": "Septiembre: influencer critica una partida de calzado",
+    "description": "Una crítica en redes cuestiona calidad de una partida y empieza a circular entre clientes.",
+    "topic": "Reputación",
+    "options": [
+      { "text": "Responder públicamente y revisar la partida.", "consequence": "La empresa muestra responsabilidad, aunque amplifica el tema por unos días.", "rentabilityImpact": -6, "clientsImpact": 8, "organizationalClimateImpact": 2, "brandImageImpact": 12, "operationalEfficiencyImpact": -2 },
+      { "text": "Contactar al influencer y resolver con información técnica.", "consequence": "La respuesta queda más controlada y puede transformar crítica en aclaración.", "rentabilityImpact": -2, "clientsImpact": 5, "organizationalClimateImpact": 1, "brandImageImpact": 8, "operationalEfficiencyImpact": 1 },
+      { "text": "No responder para no alimentar la polémica.", "consequence": "Evitaste exposición directa, pero la duda queda circulando sin respuesta.", "rentabilityImpact": 4, "clientsImpact": -8, "organizationalClimateImpact": -2, "brandImageImpact": -14, "operationalEfficiencyImpact": 0 }
+    ]
+  },
+  {
+    "order": 137,
+    "month": 10,
+    "quarter": "Q4",
+    "title": "Octubre: competidor consigue marca deportiva fuerte",
+    "description": "Otro importador anuncia una marca deportiva internacional que puede afectar Skechers y Diadora.",
     "topic": "Competencia",
     "options": [
-      {
-        "text": "Responder con una campaña fuerte de las marcas actuales.",
-        "consequence": "Defendiste posicionamiento, aunque aumentó el gasto comercial.",
-        "rentabilityImpact": -10,
-        "clientsImpact": 10,
-        "organizationalClimateImpact": 0,
-        "brandImageImpact": 15,
-        "operationalEfficiencyImpact": 0
-      },
-      {
-        "text": "Buscar una alianza con otra marca internacional.",
-        "consequence": "La empresa explora una respuesta estratégica, pero el resultado no es inmediato.",
-        "rentabilityImpact": -5,
-        "clientsImpact": 5,
-        "organizationalClimateImpact": 0,
-        "brandImageImpact": 10,
-        "operationalEfficiencyImpact": 5
-      },
-      {
-        "text": "No reaccionar y esperar cómo responde el mercado.",
-        "consequence": "Evitaste gastos, pero el competidor ganó visibilidad.",
-        "rentabilityImpact": 5,
-        "clientsImpact": -10,
-        "organizationalClimateImpact": 0,
-        "brandImageImpact": -15,
-        "operationalEfficiencyImpact": 0
-      }
+      { "text": "Responder con campaña fuerte de marcas actuales.", "consequence": "Defendiste posicionamiento, aunque aumentó gasto comercial.", "rentabilityImpact": -10, "clientsImpact": 10, "organizationalClimateImpact": 0, "brandImageImpact": 18, "operationalEfficiencyImpact": 0 },
+      { "text": "Buscar nueva alianza internacional.", "consequence": "Abriste una respuesta estratégica, pero el resultado no será inmediato.", "rentabilityImpact": -6, "clientsImpact": 5, "organizationalClimateImpact": 0, "brandImageImpact": 10, "operationalEfficiencyImpact": 4 },
+      { "text": "Esperar respuesta del mercado.", "consequence": "Evitaste gastos, pero el competidor gana conversación comercial.", "rentabilityImpact": 6, "clientsImpact": -10, "organizationalClimateImpact": 0, "brandImageImpact": -14, "operationalEfficiencyImpact": 0 }
     ]
   },
   {
-    "order": 8,
-    "title": "Problema de calidad en una partida importada",
-    "description": "Una línea de productos presenta fallas y varios comercios reclaman. Está en juego la confianza de los clientes y la imagen de la empresa.",
-    "topic": "Creación de valor",
+    "order": 138,
+    "month": 10,
+    "quarter": "Q4",
+    "title": "Octubre: nueva marca brasileña ofrece representación exclusiva",
+    "description": "Una marca urbana brasileña ofrece exclusividad para Argentina con inversión inicial y apoyo comercial.",
+    "topic": "Portafolio",
     "options": [
-      {
-        "text": "Reconocer el problema y cambiar la mercadería afectada.",
-        "consequence": "La empresa pierde dinero en el corto plazo, pero protege la confianza y la imagen.",
-        "rentabilityImpact": -20,
-        "clientsImpact": 20,
-        "organizationalClimateImpact": 5,
-        "brandImageImpact": 20,
-        "operationalEfficiencyImpact": -5
-      },
-      {
-        "text": "Negociar caso por caso con cada cliente.",
-        "consequence": "Reducís el impacto económico, pero la respuesta desigual genera cierta molestia.",
-        "rentabilityImpact": -5,
-        "clientsImpact": 5,
-        "organizationalClimateImpact": -5,
-        "brandImageImpact": 0,
-        "operationalEfficiencyImpact": 0
-      },
-      {
-        "text": "Responsabilizar al fabricante y no responder reclamos.",
-        "consequence": "Cuidaste caja en el corto plazo, pero dañaste la relación comercial.",
-        "rentabilityImpact": 10,
-        "clientsImpact": -25,
-        "organizationalClimateImpact": -10,
-        "brandImageImpact": -25,
-        "operationalEfficiencyImpact": 0
-      }
+      { "text": "Aceptar exclusividad e invertir fuerte.", "consequence": "El portafolio gana potencial, pero la apuesta financiera es exigente.", "rentabilityImpact": -14, "clientsImpact": 12, "organizationalClimateImpact": 0, "brandImageImpact": 16, "operationalEfficiencyImpact": -6 },
+      { "text": "Negociar prueba piloto con clientes seleccionados.", "consequence": "Validaste oportunidad con menor riesgo y aprendizaje real.", "rentabilityImpact": 4, "clientsImpact": 10, "organizationalClimateImpact": 0, "brandImageImpact": 10, "operationalEfficiencyImpact": 5 },
+      { "text": "Rechazar para enfocarse en marcas actuales.", "consequence": "Mantuviste foco operativo, pero podrías perder una oportunidad de crecimiento.", "rentabilityImpact": 8, "clientsImpact": -6, "organizationalClimateImpact": 0, "brandImageImpact": -6, "operationalEfficiencyImpact": 4 }
     ]
   },
   {
-    "order": 9,
-    "title": "El equipo pide mejoras salariales",
-    "description": "Algunos empleados manifiestan malestar porque los sueldos no alcanzan frente a la inflación. El clima interno empieza a tensarse.",
-    "topic": "Clima organizacional",
+    "order": 139,
+    "month": 10,
+    "quarter": "Q4",
+    "title": "Octubre: marcas actuales compiten por presupuesto comercial",
+    "description": "Varias marcas piden apoyo promocional al mismo tiempo y el presupuesto no alcanza para todas.",
+    "topic": "Asignación de presupuesto",
     "options": [
-      {
-        "text": "Otorgar un ajuste salarial general.",
-        "consequence": "Mejoró el clima interno, pero aumentaron los costos operativos.",
-        "rentabilityImpact": -15,
-        "clientsImpact": 0,
-        "organizationalClimateImpact": 25,
-        "brandImageImpact": 5,
-        "operationalEfficiencyImpact": 5
-      },
-      {
-        "text": "Implementar bonos por objetivos y desempeño.",
-        "consequence": "La empresa premia resultados y controla costos, aunque algunos empleados lo perciben como insuficiente.",
-        "rentabilityImpact": -5,
-        "clientsImpact": 5,
-        "organizationalClimateImpact": 10,
-        "brandImageImpact": 5,
-        "operationalEfficiencyImpact": 10
-      },
-      {
-        "text": "Postergar cualquier mejora hasta que aumenten las ventas.",
-        "consequence": "Cuidaste caja, pero el clima interno se deterioró.",
-        "rentabilityImpact": 10,
-        "clientsImpact": 0,
-        "organizationalClimateImpact": -25,
-        "brandImageImpact": -5,
-        "operationalEfficiencyImpact": -10
-      }
+      { "text": "Asignar presupuesto según potencial de venta inmediata.", "consequence": "Maximizaste retorno probable, pero marcas menores se sienten desplazadas.", "rentabilityImpact": 10, "clientsImpact": 5, "organizationalClimateImpact": 0, "brandImageImpact": 5, "operationalEfficiencyImpact": 4 },
+      { "text": "Dividir inversión por objetivos de marca y canal.", "consequence": "La distribución queda más equilibrada y defendible.", "rentabilityImpact": 4, "clientsImpact": 7, "organizationalClimateImpact": 1, "brandImageImpact": 8, "operationalEfficiencyImpact": 5 },
+      { "text": "Reducir campañas para cuidar caja.", "consequence": "Cuidaste rentabilidad, pero varias marcas pierden impulso comercial.", "rentabilityImpact": 9, "clientsImpact": -6, "organizationalClimateImpact": 0, "brandImageImpact": -10, "operationalEfficiencyImpact": 2 }
     ]
   },
   {
-    "order": 10,
-    "title": "Cierre de año: decisión estratégica final",
-    "description": "Llegás al cierre del año. La empresa debe definir el rumbo para el próximo ciclo: crecer, ordenar o innovar.",
-    "topic": "Planeamiento estratégico",
+    "order": 140,
+    "month": 10,
+    "quarter": "Q4",
+    "title": "Octubre: analizar salida de una marca de baja rotación",
+    "description": "Una marca ocupa stock, tiempo comercial y espacio de showroom con baja rotación sostenida.",
+    "topic": "Racionalización de portafolio",
     "options": [
-      {
-        "text": "Expandir agresivamente ecommerce, marcas y franquicias.",
-        "consequence": "La empresa apuesta al crecimiento. Si el contexto acompaña, puede escalar fuerte, pero asume mayor riesgo.",
-        "rentabilityImpact": -10,
-        "clientsImpact": 15,
-        "organizationalClimateImpact": -5,
-        "brandImageImpact": 20,
-        "operationalEfficiencyImpact": 5
-      },
-      {
-        "text": "Ordenar procesos internos antes de seguir creciendo.",
-        "consequence": "La empresa gana eficiencia y reduce errores, aunque el crecimiento comercial es más moderado.",
-        "rentabilityImpact": 5,
-        "clientsImpact": 5,
-        "organizationalClimateImpact": 10,
-        "brandImageImpact": 5,
-        "operationalEfficiencyImpact": 20
-      },
-      {
-        "text": "Conservar caja y esperar mejores condiciones del país.",
-        "consequence": "La empresa queda financieramente protegida, pero pierde dinamismo estratégico.",
-        "rentabilityImpact": 15,
-        "clientsImpact": -10,
-        "organizationalClimateImpact": 0,
-        "brandImageImpact": -10,
-        "operationalEfficiencyImpact": 0
-      }
+      { "text": "Discontinuar la marca y liquidar stock.", "consequence": "Liberaste foco y espacio, aunque la liquidación golpea imagen y margen.", "rentabilityImpact": 4, "clientsImpact": -4, "organizationalClimateImpact": 2, "brandImageImpact": -8, "operationalEfficiencyImpact": 12 },
+      { "text": "Reducir compra y relanzar sólo productos rentables.", "consequence": "La empresa limpia el portafolio sin romper del todo la relación comercial.", "rentabilityImpact": 7, "clientsImpact": 2, "organizationalClimateImpact": 1, "brandImageImpact": 2, "operationalEfficiencyImpact": 8 },
+      { "text": "Mantener la marca esperando recuperación.", "consequence": "Evitaste conflicto con el proveedor, pero el problema de rotación continúa.", "rentabilityImpact": -6, "clientsImpact": 0, "organizationalClimateImpact": 0, "brandImageImpact": 1, "operationalEfficiencyImpact": -8 }
     ]
   },
   {
-    "order": 11,
-    "title": "Un influencer viraliza una crítica",
-    "description": "Un creador de contenido publica un video criticando la calidad de una línea de calzado. El video empieza a circular y varios clientes consultan si el problema es real.",
-    "topic": "Imagen de marca",
+    "order": 141,
+    "month": 11,
+    "quarter": "Q4",
+    "title": "Noviembre: picos de demanda generan faltantes",
+    "description": "La demanda supera lo previsto y aparecen faltantes en productos de alta rotación.",
+    "topic": "Temporada alta",
     "options": [
-      {
-        "text": "Responder públicamente, reconocer el caso y explicar el proceso de revisión.",
-        "consequence": "La empresa muestra transparencia y protege su reputación, aunque queda expuesta durante algunos días.",
-        "rentabilityImpact": -5,
-        "clientsImpact": 10,
-        "organizationalClimateImpact": 5,
-        "brandImageImpact": 20,
-        "operationalEfficiencyImpact": 0
-      },
-      {
-        "text": "Ignorar el video esperando que pierda alcance.",
-        "consequence": "Evitaste intervenir, pero la falta de respuesta alimentó dudas sobre la marca.",
-        "rentabilityImpact": 5,
-        "clientsImpact": -10,
-        "organizationalClimateImpact": 0,
-        "brandImageImpact": -20,
-        "operationalEfficiencyImpact": 0
-      },
-      {
-        "text": "Contactar al influencer en privado y ofrecerle productos nuevos.",
-        "consequence": "La situación se contiene parcialmente, pero algunos clientes perciben poca transparencia.",
-        "rentabilityImpact": -5,
-        "clientsImpact": 5,
-        "organizationalClimateImpact": 0,
-        "brandImageImpact": 5,
-        "operationalEfficiencyImpact": 0
-      }
+      { "text": "Priorizar clientes de mayor volumen.", "consequence": "Aseguraste ventas relevantes, pero clientes medianos se sienten relegados.", "rentabilityImpact": 12, "clientsImpact": -6, "organizationalClimateImpact": -2, "brandImageImpact": 2, "operationalEfficiencyImpact": 8 },
+      { "text": "Distribuir stock con cupos claros por canal.", "consequence": "La empresa ordena demanda y evita conflictos graves.", "rentabilityImpact": 5, "clientsImpact": 10, "organizationalClimateImpact": 2, "brandImageImpact": 6, "operationalEfficiencyImpact": 8 },
+      { "text": "Vender por orden de llegada.", "consequence": "El criterio es simple, pero genera agotados rápidos y reclamos.", "rentabilityImpact": 6, "clientsImpact": -12, "organizationalClimateImpact": -6, "brandImageImpact": -8, "operationalEfficiencyImpact": -6 }
     ]
   },
   {
-    "order": 12,
-    "title": "Falla el sistema en plena temporada alta",
-    "description": "Durante una semana clave de ventas, el sistema de stock y facturación comienza a fallar. Ventas, administración y depósito no logran trabajar con información actualizada.",
-    "topic": "Sistemas y estructura",
+    "order": 142,
+    "month": 11,
+    "quarter": "Q4",
+    "title": "Noviembre: mayoristas presionan por entregas urgentes",
+    "description": "Clientes mayoristas exigen entregas inmediatas para aprovechar la demanda de fin de año.",
+    "topic": "Entregas urgentes",
     "options": [
-      {
-        "text": "Activar un plan manual de emergencia y seguir vendiendo.",
-        "consequence": "La empresa sostiene la operación, pero aumentan los errores y la carga de trabajo.",
-        "rentabilityImpact": 5,
-        "clientsImpact": -5,
-        "organizationalClimateImpact": -15,
-        "brandImageImpact": -5,
-        "operationalEfficiencyImpact": -20
-      },
-      {
-        "text": "Pausar parte de la operación para corregir el sistema.",
-        "consequence": "Se pierde venta inmediata, pero se evita un desorden mayor en pedidos y stock.",
-        "rentabilityImpact": -10,
-        "clientsImpact": -5,
-        "organizationalClimateImpact": 5,
-        "brandImageImpact": 0,
-        "operationalEfficiencyImpact": 15
-      },
-      {
-        "text": "Contratar soporte externo urgente y reforzar controles entre áreas.",
-        "consequence": "La solución tuvo costo, pero permitió recuperar coordinación y reducir errores.",
-        "rentabilityImpact": -15,
-        "clientsImpact": 10,
-        "organizationalClimateImpact": 5,
-        "brandImageImpact": 5,
-        "operationalEfficiencyImpact": 25
-      }
+      { "text": "Armar operativo especial de entregas urgentes.", "consequence": "Los clientes clave reciben rápido, pero el costo operativo sube.", "rentabilityImpact": -9, "clientsImpact": 14, "organizationalClimateImpact": -2, "brandImageImpact": 8, "operationalEfficiencyImpact": 9 },
+      { "text": "Priorizar urgencias por rentabilidad y relación.", "consequence": "La empresa responde con criterio y protege capacidad.", "rentabilityImpact": 5, "clientsImpact": 8, "organizationalClimateImpact": 0, "brandImageImpact": 5, "operationalEfficiencyImpact": 6 },
+      { "text": "Mantener cronograma normal de entregas.", "consequence": "Cuidaste orden interno, pero algunos clientes pierden ventas.", "rentabilityImpact": 7, "clientsImpact": -12, "organizationalClimateImpact": 2, "brandImageImpact": -8, "operationalEfficiencyImpact": 1 }
     ]
   },
   {
-    "order": 13,
-    "title": "Un gerente clave amenaza con irse",
-    "description": "Un gerente con mucho conocimiento de marcas y clientes recibe una oferta de otra empresa. Su salida podría afectar relaciones comerciales importantes.",
-    "topic": "Talento y liderazgo",
+    "order": 143,
+    "month": 11,
+    "quarter": "Q4",
+    "title": "Noviembre: ecommerce y retail compiten por el mismo stock",
+    "description": "El mismo producto se vende fuerte en ecommerce y locales, generando tensión por asignación de unidades.",
+    "topic": "Asignación de stock",
     "options": [
-      {
-        "text": "Ofrecer una mejora salarial y mayor autonomía.",
-        "consequence": "La empresa retiene talento crítico, pero aumenta su costo fijo y debe sostener la promesa de autonomía.",
-        "rentabilityImpact": -10,
-        "clientsImpact": 10,
-        "organizationalClimateImpact": 15,
-        "brandImageImpact": 5,
-        "operationalEfficiencyImpact": 10
-      },
-      {
-        "text": "Dejar que se vaya y redistribuir sus tareas.",
-        "consequence": "Se cuidan costos, pero se pierde conocimiento clave y aumenta la sobrecarga del equipo.",
-        "rentabilityImpact": 5,
-        "clientsImpact": -15,
-        "organizationalClimateImpact": -15,
-        "brandImageImpact": -5,
-        "operationalEfficiencyImpact": -10
-      },
-      {
-        "text": "Crear un plan de sucesión y negociar una transición ordenada.",
-        "consequence": "No garantiza retención, pero reduce dependencia de una sola persona y fortalece la estructura.",
-        "rentabilityImpact": -5,
-        "clientsImpact": 5,
-        "organizationalClimateImpact": 10,
-        "brandImageImpact": 5,
-        "operationalEfficiencyImpact": 15
-      }
+      { "text": "Priorizar ecommerce por margen y velocidad.", "consequence": "El canal digital crece, pero retail queda con faltantes visibles.", "rentabilityImpact": 10, "clientsImpact": -4, "organizationalClimateImpact": -2, "brandImageImpact": 3, "operationalEfficiencyImpact": 5 },
+      { "text": "Definir cupos por canal y revisar diariamente.", "consequence": "La empresa equilibra canales con control operativo.", "rentabilityImpact": 5, "clientsImpact": 8, "organizationalClimateImpact": 2, "brandImageImpact": 6, "operationalEfficiencyImpact": 8 },
+      { "text": "Priorizar retail para sostener presencia física.", "consequence": "Los locales mantienen exhibición, pero ecommerce pierde conversión.", "rentabilityImpact": 2, "clientsImpact": -2, "organizationalClimateImpact": 0, "brandImageImpact": 7, "operationalEfficiencyImpact": -2 }
     ]
   },
   {
-    "order": 14,
-    "title": "Una marca pide exclusividad total",
-    "description": "Una marca internacional ofrece mejores condiciones, pero exige que Grupo Blanco reduzca el trabajo con marcas competidoras del mismo segmento.",
-    "topic": "Poder de proveedores",
+    "order": 144,
+    "month": 11,
+    "quarter": "Q4",
+    "title": "Noviembre: campaña de fin de año exige inversión extra",
+    "description": "Una campaña de fin de año puede aumentar ventas, pero requiere presupuesto adicional no previsto.",
+    "topic": "Campaña comercial",
     "options": [
-      {
-        "text": "Aceptar la exclusividad para fortalecer el vínculo con la marca.",
-        "consequence": "La empresa gana apoyo del proveedor, pero aumenta su dependencia estratégica.",
-        "rentabilityImpact": 10,
-        "clientsImpact": 5,
-        "organizationalClimateImpact": 0,
-        "brandImageImpact": 15,
-        "operationalEfficiencyImpact": 0
-      },
-      {
-        "text": "Rechazar la exclusividad y mantener el portafolio diversificado.",
-        "consequence": "La empresa conserva autonomía, pero puede perder beneficios comerciales.",
-        "rentabilityImpact": -5,
-        "clientsImpact": 5,
-        "organizationalClimateImpact": 0,
-        "brandImageImpact": -5,
-        "operationalEfficiencyImpact": 5
-      },
-      {
-        "text": "Negociar exclusividad parcial por canal o región.",
-        "consequence": "La empresa logra un equilibrio entre compromiso con la marca y preservación del portafolio.",
-        "rentabilityImpact": 5,
-        "clientsImpact": 10,
-        "organizationalClimateImpact": 0,
-        "brandImageImpact": 10,
-        "operationalEfficiencyImpact": 5
-      }
+      { "text": "Invertir fuerte para capturar temporada alta.", "consequence": "La campaña impulsa demanda, aunque el retorno dependerá del stock disponible.", "rentabilityImpact": -8, "clientsImpact": 12, "organizationalClimateImpact": 2, "brandImageImpact": 14, "operationalEfficiencyImpact": -2 },
+      { "text": "Hacer campaña focalizada en productos con stock.", "consequence": "La inversión queda alineada a disponibilidad y margen.", "rentabilityImpact": 5, "clientsImpact": 8, "organizationalClimateImpact": 1, "brandImageImpact": 8, "operationalEfficiencyImpact": 6 },
+      { "text": "No invertir extra y aprovechar demanda orgánica.", "consequence": "Cuidaste caja, pero la marca pierde fuerza en el momento más competitivo.", "rentabilityImpact": 8, "clientsImpact": -6, "organizationalClimateImpact": 0, "brandImageImpact": -8, "operationalEfficiencyImpact": 2 }
     ]
   },
   {
-    "order": 15,
-    "title": "Aparece una oportunidad de marca propia",
-    "description": "El equipo comercial detecta que varios clientes piden una línea de calzado más accesible. Surge la posibilidad de desarrollar una marca propia para cubrir ese segmento.",
-    "topic": "Ventaja competitiva",
+    "order": 145,
+    "month": 12,
+    "quarter": "Q4",
+    "title": "Diciembre: definir rumbo del próximo año",
+    "description": "La dirección debe decidir si el próximo año conviene crecer, ordenar procesos o cuidar caja.",
+    "topic": "Estrategia anual",
     "options": [
-      {
-        "text": "Lanzar la marca propia rápidamente para aprovechar la oportunidad.",
-        "consequence": "La empresa gana autonomía y potencial de margen, pero asume riesgo por falta de prueba de mercado.",
-        "rentabilityImpact": -15,
-        "clientsImpact": 15,
-        "organizationalClimateImpact": 5,
-        "brandImageImpact": 10,
-        "operationalEfficiencyImpact": -10
-      },
-      {
-        "text": "Hacer una prueba piloto con pocos modelos y clientes seleccionados.",
-        "consequence": "La empresa valida la oportunidad con menor riesgo y aprende antes de escalar.",
-        "rentabilityImpact": 0,
-        "clientsImpact": 15,
-        "organizationalClimateImpact": 5,
-        "brandImageImpact": 10,
-        "operationalEfficiencyImpact": 10
-      },
-      {
-        "text": "Descartar la marca propia para no competir con proveedores actuales.",
-        "consequence": "La empresa evita conflictos con marcas internacionales, pero mantiene su dependencia externa.",
-        "rentabilityImpact": 5,
-        "clientsImpact": -10,
-        "organizationalClimateImpact": 0,
-        "brandImageImpact": -5,
-        "operationalEfficiencyImpact": 0
-      }
+      { "text": "Crecer con ecommerce, franquicias y nuevas marcas.", "consequence": "La empresa apuesta al crecimiento, pero asume mayor presión financiera y operativa.", "rentabilityImpact": -10, "clientsImpact": 14, "organizationalClimateImpact": -4, "brandImageImpact": 18, "operationalEfficiencyImpact": 4 },
+      { "text": "Ordenar procesos internos antes de expandirse.", "consequence": "La empresa mejora ejecución y reduce errores, aunque crece más lentamente.", "rentabilityImpact": 5, "clientsImpact": 5, "organizationalClimateImpact": 10, "brandImageImpact": 5, "operationalEfficiencyImpact": 18 },
+      { "text": "Cuidar caja hasta tener mejor contexto.", "consequence": "La empresa queda protegida, pero pierde dinamismo estratégico.", "rentabilityImpact": 14, "clientsImpact": -10, "organizationalClimateImpact": 0, "brandImageImpact": -10, "operationalEfficiencyImpact": 0 }
+    ]
+  },
+  {
+    "order": 146,
+    "month": 12,
+    "quarter": "Q4",
+    "title": "Diciembre: evaluar marca propia accesible",
+    "description": "Clientes piden una línea más económica y surge la idea de desarrollar marca propia.",
+    "topic": "Marca propia",
+    "options": [
+      { "text": "Lanzar marca propia rápidamente.", "consequence": "La empresa gana autonomía y margen potencial, pero asume riesgo sin validar mercado.", "rentabilityImpact": -12, "clientsImpact": 12, "organizationalClimateImpact": 4, "brandImageImpact": 8, "operationalEfficiencyImpact": -8 },
+      { "text": "Hacer prueba piloto con modelos seleccionados.", "consequence": "Validaste la oportunidad con menor riesgo y aprendizaje comercial.", "rentabilityImpact": 2, "clientsImpact": 10, "organizationalClimateImpact": 3, "brandImageImpact": 8, "operationalEfficiencyImpact": 6 },
+      { "text": "Descartar marca propia para no tensionar proveedores.", "consequence": "Evitaste conflictos con marcas actuales, pero mantenés dependencia externa.", "rentabilityImpact": 6, "clientsImpact": -7, "organizationalClimateImpact": 0, "brandImageImpact": -5, "operationalEfficiencyImpact": 2 }
+    ]
+  },
+  {
+    "order": 147,
+    "month": 12,
+    "quarter": "Q4",
+    "title": "Diciembre: renovar acuerdos con marcas internacionales",
+    "description": "Las marcas piden compromisos para el próximo año y el resultado condiciona cupos, apoyo y condiciones.",
+    "topic": "Relaciones internacionales",
+    "options": [
+      { "text": "Comprometer crecimiento fuerte para asegurar prioridad.", "consequence": "Las marcas valoran la ambición, pero los objetivos quedan exigentes.", "rentabilityImpact": -6, "clientsImpact": 10, "organizationalClimateImpact": 0, "brandImageImpact": 16, "operationalEfficiencyImpact": -4 },
+      { "text": "Negociar objetivos realistas por marca.", "consequence": "Cerraste acuerdos defendibles y alineados al desempeño real.", "rentabilityImpact": 6, "clientsImpact": 6, "organizationalClimateImpact": 4, "brandImageImpact": 10, "operationalEfficiencyImpact": 6 },
+      { "text": "Evitar compromisos hasta ver contexto económico.", "consequence": "Cuidaste flexibilidad, pero algunas marcas dudan de la prioridad futura.", "rentabilityImpact": 8, "clientsImpact": -4, "organizationalClimateImpact": 0, "brandImageImpact": -8, "operationalEfficiencyImpact": 2 }
+    ]
+  },
+  {
+    "order": 148,
+    "month": 12,
+    "quarter": "Q4",
+    "title": "Diciembre: decidir inversión tecnológica para stock y despacho",
+    "description": "La dirección evalúa integrar stock, facturación y despacho para reducir errores estructurales.",
+    "topic": "Tecnología operativa",
+    "options": [
+      { "text": "Invertir en integración tecnológica completa.", "consequence": "La operación gana trazabilidad, aunque la inversión inicial es alta.", "rentabilityImpact": -14, "clientsImpact": 8, "organizationalClimateImpact": 6, "brandImageImpact": 6, "operationalEfficiencyImpact": 24 },
+      { "text": "Implementar módulos críticos por etapas.", "consequence": "La empresa mejora procesos con menor riesgo de implementación.", "rentabilityImpact": -4, "clientsImpact": 6, "organizationalClimateImpact": 5, "brandImageImpact": 4, "operationalEfficiencyImpact": 14 },
+      { "text": "Postergar inversión y reforzar controles manuales.", "consequence": "Cuidaste caja, pero la operación sigue dependiendo de esfuerzos manuales.", "rentabilityImpact": 8, "clientsImpact": -5, "organizationalClimateImpact": -6, "brandImageImpact": -3, "operationalEfficiencyImpact": -8 }
     ]
   }
 ]

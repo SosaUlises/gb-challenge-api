@@ -10,6 +10,7 @@ namespace GrupoBlancoChallenge.Application.Interfaces
         DbSet<DecisionOption> DecisionOptions { get; }
         DbSet<RankingEntry> RankingEntries { get; }
         DbSet<GameDecision> GameDecisions { get; }
+        DbSet<GameSessionScenario> GameSessionScenarios { get; }
 
         Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
     }
